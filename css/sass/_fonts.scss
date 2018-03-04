@@ -1,0 +1,37 @@
+/*Vintage Avalanche - For titles and headers*/
+@font-face {
+ font-family: 'Vintage Avalanche';
+ src: url('../fonts/vintage_avalanche/vintageavalanche-regular.eot');
+ src: url('../fonts/vintage_avalanche/vintageavalanche-regular.eot?#iefix') format('embedded-opentype'),
+   url('../fonts/vintage_avalanche/vintageavalanche-regular.woff2') format('woff2'),
+   url('../fonts/vintage_avalanche/vintageavalanche-regular.woff') format('woff'),
+   url('../fonts/vintage_avalanche/vintageavalanche-regular.ttf') format('truetype'),
+   url('../fonts/vintage_avalanche/vintageavalanche-regular.svg#vintageavalanche-regular') format('svg');
+ font-weight: normal;
+ font-style: normal;
+}
+
+/*Existence - for navigation and paragraphs*/
+@font-face {
+ font-family: 'Existence';
+ src: url('../fonts/existence_light/existence-light.eot');
+ src: url('../fonts/existence_light/existence-light.eot?#iefix') format('embedded-opentype'),
+   url('../../fonts/existence_light/existence-light.woff2') format('woff2'),
+   url('../fonts/existence_light/existence-light.woff') format('woff'),
+   url('../fonts/existence_light/existence-light.ttf') format('truetype'),
+   url('../fonts/existence_light/existence-light.svg#existence-light') format('svg');
+ font-weight: 300;
+ font-style: normal;
+}
+
+@font-face {
+	font-family: 'Fabrik';
+	src: url('../fabrik/Fabrik.eot');
+	src: url('../fabrikFabrik.eot?#iefix') format('embedded-opentype'),
+		url('../fabrikFabrik.woff2') format('woff2'),
+		url('../fabrikFabrik.woff') format('woff'),
+		url('../fabrikFabrik.ttf') format('truetype'),
+		url('../fabrikFabrik.svg#Fabrik') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}

@@ -1,0 +1,271 @@
+$size-small: 600px;
+$size-medium: 992px;
+$size-large: 1200px;
+
+$col-programming: #EF5350;
+$col-web: #42A5F5;
+$col-database: #FFB300;
+$col-other: #607D8B;
+
+$primary-color: #424242!default;
+$primary-color-light: lighten($primary-color, 25%) !default;
+$primary-color-dark: darken($primary-color, 5%) !default;
+
+$col-light-red: #fff5f4;
+$col-light-blue: #edeefc;
+
+@import "fonts";
+@import "progress";
+@import "spacing";
+
+$col-link: #03B0EE;
+$col-link-hover: #4CAF50;
+
+@mixin transition($property, $duration, $effect, $delay) {
+  -webkit-transition: $property $duration $effect $delay;
+  -moz-transition: $property $duration $effect $delay;
+  -o-transition: $property $duration $effect $delay;
+  transition: $property $duration $effect $delay;
+}
+
+.footer-link {
+  @include transition(all, 0.05s, ease, 0.05s);
+  &:hover,
+  &focus {
+    color: darken(white, 25%)!important;
+  }
+}
+
+.error-code {
+  font-size: 20vw;
+  color: darken(#E0E0E0, 55%);
+}
+
+.error-detail {
+  font-size: 3vw;
+  color: darken(#E0E0E0, 55%);
+}
+
+//Global rules for fonts and background colour.
+body {
+  font-family: 'Vintage Avalanche';
+  background-color: $col-light-red;
+}
+
+//Padding to allow for navigation bar shadow and border.
+main {
+  padding-top: 1em;
+}
+
+.chip .disabled {
+  color: darken(#E0E0E0, 40%);
+}
+
+.light-border {
+  border: 1px solid #E0E0E0;
+}
+
+.light-border-bottom {
+  border-bottom: 1px solid #E0E0E0;
+}
+
+//Text block for featured and latest project descriptions on the index page.
+.description {
+  padding: 10px 20px 10px 20px;
+}
+
+//Responsive Image frame to vertically allign an image.
+.responsive-frame {
+    height: 350px;
+    width: auto;
+    white-space: nowrap;
+    text-align: center;
+    margin: 1em 0;
+}
+
+//Responsive image helper for span tag.
+.responsive-helper {
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+}
+
+//Responsive image vertically alligned.
+.responsive-img1 {
+    background: #3A6F9A;
+    vertical-align: middle;
+    width: 100%;
+    height: auto;
+}
+
+//Responsive image on smaller screens doesn't fit the whole width.
+.responsive-img1-s {
+  @media only screen and (max-width : 1200px) {
+    width: 75%;
+  }
+}
+
+.btn-project {
+  background-color: $primary-color-light;
+	box-shadow: 0 3px 0 0 $primary-color-dark;
+
+  &:hover, .hover, &:focus, .focus {
+    background-color: $primary-color;
+    box-shadow: 0 3px 0 0 $primary-color-dark;
+  }
+  &:active, .active {
+    box-shadow: none;
+  	margin-bottom: -3px;
+  	margin-top: 3px;
+  }
+}
+
+.btn-boxed-primary {
+  $btn-primary-colour: #026899;
+  $btn-secondary-colour: #38BCFC;
+  color: $btn-primary-colour;
+  border: 2px solid $btn-primary-colour;
+  border-radius: 1px;
+  box-shadow: none!important;
+  @include transition(all, 0.1s, linear, 0.1s);
+  line-height: 45px;
+  height: 50px;
+
+  &:hover, &:focus, .focus, .hover {
+    background-color: $btn-primary-colour;
+    color: white;
+  }
+}
+
+
+.table-of-contents {
+  a {
+    padding-left: 12px!important;
+    padding-right: 12px!important;
+    &.active, &:hover {
+      $border-sidebar: 1px solid #039be5!important;
+      border-left: $border-sidebar;
+      border-right: $border-sidebar;
+      color: lighten(#757575, 15%);
+    }
+  }
+}
+
+.project-date {
+  font-size: 0.85rem;
+  color: $col-link-hover;
+}
+
+//Right pointing arrow for listing projects.
+.icon-arrow {
+  font-size: 12px;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+  @media only screen and (max-width: $size-medium) {
+    display: block;
+  }
+}
+
+.language-chip {
+  $chip-height: 25px;
+  $shift-amount: 15%;
+  height: $chip-height!important;
+  line-height: $chip-height!important;
+  color: white;
+  font-weight: bold;
+
+  &[data-language="Java"],
+  &[data-language="C#"],
+  &[data-language="Visual Basic"],
+  &[data-language="Ruby"],
+  &[data-language="Haskell"],
+  &[data-language="C"],
+  &[data-language="JavaScript"],
+  &[data-language="jQuery"],
+  &[data-language="PHP"],
+  &[data-language="NodeJS"] {
+    background-color: lighten($col-programming, $shift-amount);
+  }
+
+  &[data-language="HTML"],
+  &[data-language="CSS"],
+  &[data-language="Sass"],
+  &[data-language="Bootstrap"],
+  &[data-language="Materialize"] {
+    background-color: lighten($col-web, $shift-amount);
+  }
+
+  &[data-language="SQL"],
+  &[data-language="Access SQL"],
+  &[data-language="SQLite"],
+  &[data-language="MongoDB"] {
+    background-color: lighten($col-database, $shift-amount);
+  }
+
+  &[data-language="LaTeX"],
+  &[data-language="Bash"] {
+    background-color: lighten($col-other, $shift-amount);
+  }
+}
+
+.img-showcase {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.brand-logo {
+  @include transition(all, 0.2s, ease-out, 0.05s);
+  padding-left: 1em!important;
+  font-size: 1.5em!important;
+  color: darken(white, 10%)!important;
+  &:hover, &:focus, .focus, .hover {
+    color: white!important;
+  }
+}
+
+#nav-mobile li a {
+  @include transition(border-bottom, 0.2s, ease-out, 0.05s);
+  color: darken(white, 10%);
+  box-sizing: border-box;
+  border-bottom: 2px solid transparent;
+  font-family: 'Cinzel', serif!important;
+  &:hover, &:focus, .focus, .hover {
+    border-bottom: 2px solid white;
+    color: white;
+  }
+}
+
+small { color: $col-link-hover; }
+
+a.project-link {
+  color: $col-link;
+  @include transition(all, 0.2s, ease, 0.1s);
+  &:hover {
+    color: $col-link-hover!important;
+  }
+}
+
+strong { font-weight: bold; }
+
+//Makes content full width;
+.full-width { width: 100%; }
+
+.btn-project {
+  text-transform: none;
+  text-align: center;
+}
+
+//Widens the buttons on the navigation menu.
+#nav-mobile li a {
+  padding-left: 1.5em;
+  padding-right: 1.5em;
+}
+
+//Background colours.
+.col-light-red { background-color: $col-light-red; }
+.col-light-blue {background-color: $col-light-blue; }
+
+//Bottom of the footer.
+.footer-copyright {
+  background-color: $primary-color-dark!important;
+}

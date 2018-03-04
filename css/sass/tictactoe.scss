@@ -1,0 +1,82 @@
+$tile-colour: #272822;
+$tilehover-colour: #0B0B09;
+$button-colour: #42A7A6;
+$buttonhover-colour: #36A094;
+$medium-min: 700px;
+$game-border: 5px solid white;
+$max-size: 200px;
+$size-percentage: 30%;
+
+.tictactoe {
+  background-color: $tile-colour;
+  border: 1px solid white;
+  vertical-align: top;
+  box-sizing: content-box;
+  cursor: pointer;
+
+  &:hover,
+  &:focus {
+    background-color: $tilehover-colour!important;
+  }
+
+  &.tile {
+    max-width: $max-size;
+    max-height: $max-size;
+    width: $size-percentage;
+    height: $size-percentage;
+  }
+
+  &.tile-button {
+    max-width: $max-size;
+    max-height: ($max-size / 3);
+    width: $size-percentage;
+  }
+
+}
+
+#tic1,
+#tic2,
+#tic3 {
+  border-top: $game-border;
+}
+
+#tic1,
+#tic4,
+#tic7,
+#NewTwoPlayer {
+  border-left: $game-border;
+}
+
+#tic7,
+#tic8,
+#tic9,
+#NewTwoPlayer,
+#NewAI,
+#Score {
+  border-bottom: $game-border;
+}
+
+#tic3,
+#tic6,
+#tic9,
+#Score {
+  border-right: $game-border;
+}
+
+
+
+#NewTwoPlayer,
+#NewAI,
+#Score {
+    box-sizing: content-box;
+    background-color: $button-colour;
+}
+
+#NewTwoPlayer:hover,
+#NewTwoPlayer:focus,
+#NewAI:hover,
+#NewAI:focus,
+#Score:hover,
+#Score:focus {
+    background-color: $buttonhover-colour!important;
+}
