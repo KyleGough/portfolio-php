@@ -30,7 +30,7 @@
 
 <main>
 
-<div class="col-light-blue">
+<!--<div class="col-light-blue">
   <div class="container">
     <div class="row">
       <div class="col s12">
@@ -38,34 +38,27 @@
           <div class="circle-1 rotate1"></div>
           <div class="circle-1 rotate2"></div>
           <div class="circle-1 rotate3"></div>
-          <div class="hexagon rotate2">
-            <div class="hexTop"></div>
-            <div class="hexBottom"></div>
-          </div>
-          <div class="hexagon rotate1">
-            <div class="hexTop"></div>
-            <div class="hexBottom"></div>
-          </div>
-          <div class="hexagon rotate3">
-            <div class="hexTop"></div>
-            <div class="hexBottom"></div>
-          </div>
         </div>
       </div>
     </div>
   </div>
-</div>
+</div>-->
 
 <div class="col-light-red">
   <div class="container">
-    <div class="row flex center p-v-2 m-b-0">
-      <div class="col s12 m6 l4 m-v-2">
+    <div class="row flex p-v-2 m-b-0">
+      <div class="col s12 m3 l3 m-v-2">
         <img class="responsive-img circle" src="images/code.png">
       </div>
-      <div class="col s12 m6 l8 m-v-2">
-        <h3>Kyle Gough</h3>
-        <h5 class="p-h-1"><small>Second Year Computer Science student at Warwick University.</small></h5>
-        <p>Welcome to my portfolio website showcasing my skills and projects completed in my spare time and at university.</p>
+      <div class="col s12 m9 l9 m-v-2">
+        <div class="valign-wrapper" style="height:100%;width:100%;">
+          <div class="valign" style="height:100%;"></div>
+          <div>
+            <h3>Kyle Gough</h3>
+            <h5><small>Second Year Computer Science student at Warwick University.</small></h5>
+            <p>Welcome to my portfolio website showcasing my skills and projects completed in my spare time and at university.</p>
+          </div>
+        </div>
       </div>
     </div>
   </div>
