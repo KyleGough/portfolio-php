@@ -31,11 +31,17 @@
   </div>
   <div class="footer-copyright">
     <div class="container">
-      &copy; 2018 Kyle Gough
-      <?php
-        date_default_timezone_set("Europe/London");
-        echo "<span class='grey-text text-lighten-4 right'>Last Modified: " . date("jS F Y g:ia", getlastmod()) . "</span>";
-      ?>
+      <div class="row m-b-0">
+        <div class="col s12 l6">
+          <p>&copy; 2018 Kyle Gough</p>
+        </div>
+        <div class="col s12 l6">
+          <?php
+            date_default_timezone_set("Europe/London");
+            echo "<p class='grey-text text-lighten-4 right'>Last Modified: " . date("jS F Y g:ia", getlastmod()) . "</p>";
+          ?>
+        </div>
+      </div>
     </div>
   </div>
 </footer>

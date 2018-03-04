@@ -31,9 +31,11 @@
 <main>
 <div class="col-light-red">
   <div class="container">
-    <div class="row center m-v-0">
-      <div class="col s10 offset-s1 m6 offset-m3 l4 offset-l4 m-v-4">
+    <div class="row flex center p-v-2 m-b-0">
+      <div class="col s12 m6 l4 m-v-2">
         <img class="responsive-img circle" src="images/code.png">
+      </div>
+      <div class="col s12 m6 l8 m-v-2">
         <h3>Kyle Gough</h3>
         <h5 class="p-h-1"><small>Second Year Computer Science student at Warwick University.</small></h5>
         <p>Welcome to my portfolio website showcasing my skills and projects completed in my spare time and at university.</p>
@@ -50,7 +52,7 @@
         <?php
           echo "<h5><strong>" . $featuredProject["title"] . "</strong></h5>";
           echo "<p class='m-h-1 description'>" . $featuredProject["description"] . "</p>";
-          echo "<a href='projects/" . $featuredProject["ID"] . ".php' class='btn btn-flat btn-boxed-primary full-width'>View Featured Project</a>";
+          echo "<a href='projects/" . $featuredProject["ID"] . ".php' class='btn btn-flat btn-boxed-primary full-width m-t-1'>View Featured Project</a>";
         ?>
       </div>
       <div class="col s12 l6 p-h-2 m-v-2 pull-l6">
@@ -72,7 +74,7 @@
         <?php
           echo "<h5><strong>" . $latestProject["title"] . "</strong></h5>";
           echo "<p class='m-h-1 description'>" . $latestProject["description"] . "</p>";
-          echo "<a href='projects/" . $latestProject["ID"] . ".php' class='btn btn-flat btn-boxed-primary full-width'>View Latest Project</a>";
+          echo "<a href='projects/" . $latestProject["ID"] . ".php' class='btn btn-flat btn-boxed-primary full-width m-t-1'>View Latest Project</a>";
         ?>
       </div>
       <div class="col s12 l6 m-v-2 p-h-2">
