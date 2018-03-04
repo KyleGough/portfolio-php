@@ -29,6 +29,33 @@
 ?>
 
 <main>
+
+<div class="col-light-blue">
+  <div class="container">
+    <div class="row">
+      <div class="col s12">
+        <div class="g">
+          <div class="circle-1 rotate1"></div>
+          <div class="circle-1 rotate2"></div>
+          <div class="circle-1 rotate3"></div>
+          <div class="hexagon rotate2">
+            <div class="hexTop"></div>
+            <div class="hexBottom"></div>
+          </div>
+          <div class="hexagon rotate1">
+            <div class="hexTop"></div>
+            <div class="hexBottom"></div>
+          </div>
+          <div class="hexagon rotate3">
+            <div class="hexTop"></div>
+            <div class="hexBottom"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
 <div class="col-light-red">
   <div class="container">
     <div class="row flex center p-v-2 m-b-0">
