@@ -1,3 +1,6 @@
+/*----------------------------------------------------------------------------*/
+/*Variables*/
+
 $size-small: 600px;
 $size-medium: 992px;
 $size-large: 1200px;
@@ -14,12 +17,15 @@ $primary-color-dark: darken($primary-color, 5%) !default;
 $col-light-red: #fff5f4;
 $col-light-blue: #edeefc;
 
+$col-link: #03B0EE;
+$col-link-hover: #4CAF50;
+
 @import "fonts";
 @import "progress";
 @import "spacing";
 
-$col-link: #03B0EE;
-$col-link-hover: #4CAF50;
+/*----------------------------------------------------------------------------*/
+/*Mixins*/
 
 @mixin transition($property, $duration, $effect, $delay) {
   -webkit-transition: $property $duration $effect $delay;
@@ -28,13 +34,24 @@ $col-link-hover: #4CAF50;
   transition: $property $duration $effect $delay;
 }
 
-.footer-link {
-  @include transition(all, 0.05s, ease, 0.05s);
-  &:hover,
-  &focus {
-    color: darken(white, 25%)!important;
-  }
+/*----------------------------------------------------------------------------*/
+/*Main*/
+
+//Global rules for fonts and background colour.
+body {
+  font-family: 'Vintage Avalanche';
+  background-color: $col-light-red;
 }
+
+//Padding to allow for navigation bar shadow and border.
+main { padding-top: 1em; }
+
+//Background colours.
+.col-light-red { background-color: $col-light-red; }
+.col-light-blue {background-color: $col-light-blue; }
+
+/*----------------------------------------------------------------------------*/
+/*Errors*/
 
 .error-code {
   font-size: 20vw;
@@ -46,56 +63,31 @@ $col-link-hover: #4CAF50;
   color: darken(#E0E0E0, 55%);
 }
 
-//Global rules for fonts and background colour.
-body {
-  font-family: 'Vintage Avalanche';
-  background-color: $col-light-red;
-}
-
-//Padding to allow for navigation bar shadow and border.
-main {
-  padding-top: 1em;
-}
-
-.chip .disabled {
-  color: darken(#E0E0E0, 40%);
-}
-
-.light-border {
-  border: 1px solid #E0E0E0;
-}
-
-.light-border-bottom {
-  border-bottom: 1px solid #E0E0E0;
-}
-
-//Text block for featured and latest project descriptions on the index page.
-.description {
-  padding: 10px 20px 10px 20px;
-}
+/*----------------------------------------------------------------------------*/
+/*Responsive Helper*/
 
 //Responsive Image frame to vertically allign an image.
 .responsive-frame {
-    height: 350px;
-    width: auto;
-    white-space: nowrap;
-    text-align: center;
-    margin: 1em 0;
+  height: 350px;
+  width: auto;
+  white-space: nowrap;
+  text-align: center;
+  margin: 1em 0;
 }
 
 //Responsive image helper for span tag.
 .responsive-helper {
-    display: inline-block;
-    height: 100%;
-    vertical-align: middle;
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
 }
 
 //Responsive image vertically alligned.
 .responsive-img1 {
-    background: #3A6F9A;
-    vertical-align: middle;
-    width: 100%;
-    height: auto;
+  background: #3A6F9A;
+  vertical-align: middle;
+  width: 100%;
+  height: auto;
 }
 
 //Responsive image on smaller screens doesn't fit the whole width.
@@ -105,66 +97,8 @@ main {
   }
 }
 
-.btn-project {
-  background-color: $primary-color-light;
-	box-shadow: 0 3px 0 0 $primary-color-dark;
-
-  &:hover, .hover, &:focus, .focus {
-    background-color: $primary-color;
-    box-shadow: 0 3px 0 0 $primary-color-dark;
-  }
-  &:active, .active {
-    box-shadow: none;
-  	margin-bottom: -3px;
-  	margin-top: 3px;
-  }
-}
-
-.btn-boxed-primary {
-  $btn-primary-colour: #026899;
-  $btn-secondary-colour: #38BCFC;
-  color: $btn-primary-colour;
-  border: 2px solid $btn-primary-colour;
-  border-radius: 1px;
-  box-shadow: none!important;
-  @include transition(all, 0.1s, linear, 0.1s);
-  line-height: 45px;
-  height: 50px;
-
-  &:hover, &:focus, .focus, .hover {
-    background-color: $btn-primary-colour;
-    color: white;
-  }
-}
-
-
-.table-of-contents {
-  a {
-    padding-left: 12px!important;
-    padding-right: 12px!important;
-    &.active, &:hover {
-      $border-sidebar: 1px solid #039be5!important;
-      border-left: $border-sidebar;
-      border-right: $border-sidebar;
-      color: lighten(#757575, 15%);
-    }
-  }
-}
-
-.project-date {
-  font-size: 0.85rem;
-  color: $col-link-hover;
-}
-
-//Right pointing arrow for listing projects.
-.icon-arrow {
-  font-size: 12px;
-  padding-left: 0.5em;
-  padding-right: 0.5em;
-  @media only screen and (max-width: $size-medium) {
-    display: block;
-  }
-}
+/*----------------------------------------------------------------------------*/
+/*Programming Languages*/
 
 .language-chip {
   $chip-height: 25px;
@@ -208,10 +142,8 @@ main {
   }
 }
 
-.img-showcase {
-  margin-top: 20px;
-  margin-bottom: 20px;
-}
+/*----------------------------------------------------------------------------*/
+/*Navigation Bar*/
 
 .brand-logo {
   @include transition(all, 0.2s, ease-out, 0.05s);
@@ -235,6 +167,36 @@ main {
   }
 }
 
+//Widens the buttons on the navigation menu.
+#nav-mobile li a {
+  padding-left: 1.5em;
+  padding-right: 1.5em;
+}
+
+/*----------------------------------------------------------------------------*/
+/*Footer*/
+
+.footer-link {
+  @include transition(all, 0.05s, ease, 0.05s);
+  &:hover,
+  &focus {
+    color: darken(white, 25%)!important;
+  }
+}
+
+//Bottom of the footer.
+.footer-copyright {
+  background-color: $primary-color-dark!important;
+}
+
+/*----------------------------------------------------------------------------*/
+/*Other*/
+
+.img-showcase {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
 small { color: $col-link-hover; }
 
 a.project-link {
@@ -255,17 +217,80 @@ strong { font-weight: bold; }
   text-align: center;
 }
 
-//Widens the buttons on the navigation menu.
-#nav-mobile li a {
-  padding-left: 1.5em;
-  padding-right: 1.5em;
+
+.chip .disabled {
+  color: darken(#E0E0E0, 40%);
 }
 
-//Background colours.
-.col-light-red { background-color: $col-light-red; }
-.col-light-blue {background-color: $col-light-blue; }
+.light-border {
+  border: 1px solid #E0E0E0;
+}
 
-//Bottom of the footer.
-.footer-copyright {
-  background-color: $primary-color-dark!important;
+.light-border-bottom {
+  border-bottom: 1px solid #E0E0E0;
+}
+
+//Text block for featured and latest project descriptions on the index page.
+.description {
+  padding: 10px 20px 10px 20px;
+}
+
+.btn-project {
+  background-color: $primary-color-light;
+	box-shadow: 0 3px 0 0 $primary-color-dark;
+
+  &:hover, .hover, &:focus, .focus {
+    background-color: $primary-color;
+    box-shadow: 0 3px 0 0 $primary-color-dark;
+  }
+  &:active, .active {
+    box-shadow: none;
+  	margin-bottom: -3px;
+  	margin-top: 3px;
+  }
+}
+
+.btn-boxed-primary {
+  $btn-primary-colour: #026899;
+  $btn-secondary-colour: #38BCFC;
+  color: $btn-primary-colour;
+  border: 2px solid $btn-primary-colour;
+  border-radius: 1px;
+  box-shadow: none!important;
+  @include transition(all, 0.1s, linear, 0.1s);
+  line-height: 45px;
+  height: 50px;
+
+  &:hover, &:focus, .focus, .hover {
+    background-color: $btn-primary-colour;
+    color: white;
+  }
+}
+
+.table-of-contents {
+  a {
+    padding-left: 12px!important;
+    padding-right: 12px!important;
+    &.active, &:hover {
+      $border-sidebar: 1px solid #039be5!important;
+      border-left: $border-sidebar;
+      border-right: $border-sidebar;
+      color: lighten(#757575, 15%);
+    }
+  }
+}
+
+.project-date {
+  font-size: 0.85rem;
+  color: $col-link-hover;
+}
+
+//Right pointing arrow for listing projects.
+.icon-arrow {
+  font-size: 12px;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+  @media only screen and (max-width: $size-medium) {
+    display: block;
+  }
 }

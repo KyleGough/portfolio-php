@@ -30,7 +30,7 @@
         </div>
       </div>
     </div>
-    <div class="row m-v-0">
+    <!--<div class="row m-v-0">
       <div class="col s6 m-v-4 center">
           <div class="input-field">
             <select id="project-filter-technology">
@@ -80,11 +80,11 @@
           </div>
         </div>
       </div>
-    </div>
+    </div>-->
   </div>
 </div>
 
-<script>
+<!--<script>
 
   $(document).ready(function() {
     filterProjects();
@@ -138,7 +138,7 @@
       $("#no-matches").hide();
     }
   }
-</script>
+</script>-->
 
 <?php
 $json_string = file_get_contents('./json/projectlist.json', FILE_USE_INCLUDE_PATH);
