@@ -26,7 +26,7 @@
         <h3><strong>Projects</strong></h3>
       </div>
     </div>
-    <div class="row">
+    <div class="row m-b-2">
       <div class="col s10 offset-s1">
         <h5><small><strong>Note:</strong> All projects subtitled with the prefix CSxxx are university
           coursework/lab work, all other projects have been completed in my spare time to further develop my skills or as a way to learn a new language.</small></h5>
@@ -149,6 +149,7 @@ $array = json_decode($json_string, true);
 for ($i = 0; $i < count($array); $i++) {
   $project = $array[$i];
 
+  //Background Colour.
   if ($i & 1) {
     echo "<div class='col-light-red'>";
   }
@@ -156,25 +157,34 @@ for ($i = 0; $i < count($array); $i++) {
     echo "<div class='col-light-blue'>";
   }
 
-  echo "<div class='container p-v-4'>"; //###
-
-  echo "<div id='" . $project["ID"] . "' class='project-row' ";
+  //Main container and identifiers for search functionality.
+  echo "<div class='container' id='" . $project["ID"] . "' ";
   echo "data-uni='" . $project["categories"]["uni"] . "' ";
   echo "data-per='" . $project["categories"]["per"] . "' ";
   echo "data-web='" . $project["categories"]["web"] . "'>";
+  echo "<div class='row flex p-v-2 m-b-0'>";
 
-  echo "<div class='row'>";
-
-  echo "<div class='col s12 xl7'>";
+  //Description Column.
+  echo "<div class='col s12 xl7 m-v-2'>";
   echo "<h4><strong>" . $project["title"] . "</strong></h4>";
+
+  //Subtitle.
   if ($project["subtitle"] != null) {
     echo "<h5><strong>" . $project["subtitle"] . "</strong></h5>";
   }
+
+  //Date.
   echo "<p class='project-date m-t-0'>" . $project["date"] . "</p>";
+
+  //Programming Languages.
   for ($j = 0; $j < count($project["languages"]); $j++) {
     echo "<div class='chip language-chip' data-language='" . $project["languages"][$j]["name"] . "'>" . $project["languages"][$j]["name"] . "</div>";
   }
+
+  //Description.
   echo "<p>" . $project["description"] . "</p>";
+
+  //Chips.
   if ($project["live"] != null) {
     echo "<div class='chip'><a class='project-link' href='" . $project["live"] . "' target='_blank'><img src='images/live.png' alt='Live Project'>View Live Version of Project</a></div>";
   }
@@ -182,16 +192,23 @@ for ($i = 0; $i < count($array); $i++) {
     echo "<div class='chip github-chip'><a class='project-link' href='" . $project["github"] . "' target='_blank'><img src='images/github-icon.png' alt='Github Logo'>Github</a></div>";
   }
 
-  echo "<div><a href='projects/" . $project["ID"] . ".php' class='m-v-2 btn btn-flat btn-boxed-primary'>View Project</a></div>";
-  echo "</div>";
-  echo "<div class='col s12 xl5'>";
-  echo "<div class='responsive-frame'><span class='responsive-helper'></span>";
-  echo "<img class='responsive-img1 responsive-img1-s light-border z-depth-1' src='" . $project["image"] . "' alt='" . $project["alt"] . "' height=350px></div>";
+  //View Project
+  echo "<div><a href='projects/" . $project["ID"] . ".php' class='";
+  if ($project["disabled"]) {
+    echo "disabled ";
+  }
+  echo "m-v-2 btn btn-flat btn-boxed-primary'>View Project</a></div></div>";
+
+  //Image column.
+  echo "<div class='col s12 xl5 p-v-2'>";
+  echo "<div class='valign-wrapper' style='height:100%;width:100%;'>";
+  echo "<div class='valign' style='height:100%;'></div>";
+  echo "<img class='light-border z-depth-1' src='" . $project["image"] . "' alt='" . $project["alt"] . "'></div>";
   echo "</div></div></div></div></div>";
 }
 ?>
 
-<div class="col-light-red">
+<!--<div class="col-light-red">
   <div id="no-matches" class="container m-v-0">
     <div class="row m-t-2">
       <div class="col s12 section scrollspy center">
@@ -225,7 +242,7 @@ for ($i = 0; $i < count($array); $i++) {
       </div>
     </div>
   </div>
-</div>
+</div>-->
 </main>
 
 <?php include "footer.php"; ?>

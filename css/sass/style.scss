@@ -68,11 +68,15 @@ main { padding-top: 1em; }
 
 //Responsive Image frame to vertically allign an image.
 .responsive-frame {
-  height: 350px;
+  max-height: 100%;
   width: auto;
   white-space: nowrap;
   text-align: center;
-  margin: 1em 0;
+  margin: 2em 0;
+
+  /*@media only screen and (min-width : 993px) {
+    max-height: 350px;
+  }*/
 }
 
 //Responsive image helper for span tag.
@@ -204,6 +208,12 @@ strong { font-weight: bold; }
 //Makes content full width;
 .full-width { width: 100%; }
 
+//Used to wrap columns for equal height, to support vertically aligned images.
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+
 /*----------------------------------------------------------------------------*/
 /*Other*/
 
@@ -224,7 +234,7 @@ a.project-link {
 
 //Text block for featured and latest project descriptions on the index page.
 .description {
-  padding: 10px 20px 10px 20px;
+  margin: 1em 0!important;
 }
 
 .btn-project {
