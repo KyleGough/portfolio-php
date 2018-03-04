@@ -25,28 +25,28 @@ $darken-amount: 30%;
 
 
 .progress-programming {
-  background-color: lighten($col-programming, 30%)!important;
+  background-color: lighten($col-programming, 25%)!important;
   & > .progress-bar {
     background-color: $col-programming;
   }
 }
 
 .progress-web {
-  background-color: lighten($col-web, 30%)!important;
+  background-color: lighten($col-web, 25%)!important;
   & > .progress-bar {
     background-color: $col-web;
   }
 }
 
 .progress-database {
-  background-color: lighten($col-database, 30%)!important;
+  background-color: lighten($col-database, 25%)!important;
   & > .progress-bar {
     background-color: $col-database;
   }
 }
 
 .progress-other {
-  background-color: lighten($col-other, 30%)!important;
+  background-color: lighten($col-other, 25%)!important;
   & > .progress-bar {
     background-color: $col-other;
   }

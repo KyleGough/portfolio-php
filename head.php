@@ -7,7 +7,7 @@
 <script type="text/javascript" src="js/materialize.min.js"></script>
 <script type="text/javascript" src="js/main.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link rel="icon" href="favicon.ico">
+<link rel="icon" href="./favicon.ico">
 <meta name="author" content="Kyle Gough">
 <meta name="description" content="My personal portfolio showcasing skills and programming/web development projects undertaken at university and in my spare time.">
 <meta name="keywords" content="kyle, gough, portfolio, projects, java, javascript, programmer, programming, website, development">

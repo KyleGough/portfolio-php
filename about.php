@@ -1,9 +1,6 @@
 <?php
   error_reporting(E_ALL);
   ini_set("display_errors", 1);
-  include "projects/screenshots.php";
-  $imageList[0] = "images/bsplit-homepage.png";
-  $altList[0] = "BSplit - Homepage";
 ?>
 
 <!DOCTYPE html>

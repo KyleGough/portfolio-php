@@ -22,12 +22,14 @@
 <div class="col-light-red">
   <div class="container m-v-0">
     <div class="row m-v-0">
-      <div class="col s12 m-v-4 section scrollspy center">
+      <div class="col s12 m-v-1 section scrollspy center">
         <h3><strong>Projects</strong></h3>
-        <div class="m-v-0 p-v-0 p-h-1">
-          <h5><small><strong>Note:</strong> All projects subtitled with the prefix CSxxx are university
-            coursework/lab work, all other projects have been completed in my spare time to further develop my skills or as a way to learn a new language.</small></h5>
-        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col s10 offset-s1">
+        <h5><small><strong>Note:</strong> All projects subtitled with the prefix CSxxx are university
+          coursework/lab work, all other projects have been completed in my spare time to further develop my skills or as a way to learn a new language.</small></h5>
       </div>
     </div>
     <!--<div class="row m-v-0">

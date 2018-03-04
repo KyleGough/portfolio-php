@@ -1,5 +1,18 @@
 [
   {
+    "version": "3.1.4",
+    "type": "Revision",
+    "date": "4th March 2018",
+    "overview": "New styling.",
+    "updates": [
+      "Updated styling to a darker scheme.",
+      "Added more spacing to all pages.",
+      "Moved common php scripts to a single folder.",
+      "Added box shadows to images.",
+      "Removed project search function."
+    ]
+  },
+  {
    "version": "3.1.3",
    "type": "Revision",
    "date": "14th December 2017",
