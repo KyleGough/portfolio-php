@@ -98,7 +98,11 @@ main { padding-top: 1em; }
 }
 
 /*----------------------------------------------------------------------------*/
-/*Programming Languages*/
+/*Chips*/
+
+.chip .disabled {
+  color: darken(#E0E0E0, 40%);
+}
 
 .language-chip {
   $chip-height: 25px;
@@ -160,7 +164,6 @@ main { padding-top: 1em; }
   color: darken(white, 10%);
   box-sizing: border-box;
   border-bottom: 2px solid transparent;
-  font-family: 'Cinzel', serif!important;
   &:hover, &:focus, .focus, .hover {
     border-bottom: 2px solid white;
     color: white;
@@ -180,7 +183,7 @@ main { padding-top: 1em; }
   @include transition(all, 0.05s, ease, 0.05s);
   &:hover,
   &focus {
-    color: darken(white, 25%)!important;
+    color: darken(white, 35%)!important;
   }
 }
 
@@ -190,6 +193,18 @@ main { padding-top: 1em; }
 }
 
 /*----------------------------------------------------------------------------*/
+/*Helps*/
+
+//Smaller coloured text.
+small { color: $col-link-hover; }
+
+//Bolded text.
+strong { font-weight: bold; }
+
+//Makes content full width;
+.full-width { width: 100%; }
+
+/*----------------------------------------------------------------------------*/
 /*Other*/
 
 .img-showcase {
@@ -197,37 +212,14 @@ main { padding-top: 1em; }
   margin-bottom: 20px;
 }
 
-small { color: $col-link-hover; }
-
 a.project-link {
   color: $col-link;
   @include transition(all, 0.2s, ease, 0.1s);
-  &:hover {
-    color: $col-link-hover!important;
-  }
-}
-
-strong { font-weight: bold; }
-
-//Makes content full width;
-.full-width { width: 100%; }
-
-.btn-project {
-  text-transform: none;
-  text-align: center;
-}
-
-
-.chip .disabled {
-  color: darken(#E0E0E0, 40%);
+  &:hover { color: $col-link-hover!important; }
 }
 
 .light-border {
   border: 1px solid #E0E0E0;
-}
-
-.light-border-bottom {
-  border-bottom: 1px solid #E0E0E0;
 }
 
 //Text block for featured and latest project descriptions on the index page.
@@ -238,6 +230,8 @@ strong { font-weight: bold; }
 .btn-project {
   background-color: $primary-color-light;
 	box-shadow: 0 3px 0 0 $primary-color-dark;
+  text-transform: none;
+  text-align: center;
 
   &:hover, .hover, &:focus, .focus {
     background-color: $primary-color;
@@ -257,7 +251,7 @@ strong { font-weight: bold; }
   border: 2px solid $btn-primary-colour;
   border-radius: 1px;
   box-shadow: none!important;
-  @include transition(all, 0.1s, linear, 0.1s);
+  @include transition(all, 0.1s, linear, 0.0s);
   line-height: 45px;
   height: 50px;
 
@@ -280,6 +274,7 @@ strong { font-weight: bold; }
   }
 }
 
+//Project date that accompanies each project.
 .project-date {
   font-size: 0.85rem;
   color: $col-link-hover;

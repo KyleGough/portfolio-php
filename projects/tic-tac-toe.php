@@ -1,7 +1,7 @@
 <?php
   error_reporting(E_ALL);
   ini_set("display_errors", 1);
-  include "screenshots.php";
+  include "./common/screenshots.php";
   $imageList[0] = "images/tictactoe1.png";
   $imageList[1] = "images/tictactoe2.png";
   $imageList[2] = "images/tictactoe3.png";
@@ -103,7 +103,7 @@
 
       <?php generateScreenshots($imageList, $altList); ?>
 
-      <?php include "pager.php"; ?>
+      <?php include "./common/pager.php"; ?>
 
     </div>
     <div class="col hide-on-small-only m2 l2">

@@ -148,9 +148,9 @@
           <li>CS258: Database Systems<i class="material-icons icon-arrow">arrow_forward</i><a class="project-link" href="#">Department Store Database Analysis</a></li>
           <li>CS259: Formal Languages</li>
           <li>CS260: Algorithms</li>
-          <li>CS261: Software Engineering</li>
-          <li>CS262: Logic and Verification</li>
-          <li>CS263: Cyber Security</li>
+          <li>CS261: Software Engineering<i class="material-icons icon-arrow">arrow_forward</i><a class="project-link" href="#">Trader ChatBot Group Project</a></li>
+          <li>CS262: Logic and Verification<i class="material-icons icon-arrow">arrow_forward</i><a class="project-link" href="#">Alloy Coursework</a></li>
+          <li>CS263: Cyber Security<i class="material-icons icon-arrow">arrow_forward</i><a class="project-link" href="#">Wondough Bank Coursework</a></li>
         </ul>
       </div>
     </div>

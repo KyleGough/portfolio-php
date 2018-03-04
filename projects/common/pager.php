@@ -1,5 +1,5 @@
 <?php
-  $json_string = file_get_contents('../projectlist.json', FILE_USE_INCLUDE_PATH);
+  $json_string = file_get_contents('../json/projectlist.json', FILE_USE_INCLUDE_PATH);
   $array = json_decode($json_string, true);
   $matchedIndex = -1;
   $previousIndex = -1;

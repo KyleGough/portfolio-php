@@ -9,7 +9,7 @@
       if($i % 3 === 0) {
         echo "<div class='row'>";
       }
-      echo "<div class='col s4'><img class='responsive-img materialboxed' src='" . $imageList[$i] . "' alt='" . $altList[$i] . "' data-caption='" . $altList[$i] . "'></div>";
+      echo "<div class='col s4'><img class='responsive-img materialboxed z-depth-1' src='" . $imageList[$i] . "' alt='" . $altList[$i] . "' data-caption='" . $altList[$i] . "'></div>";
       if($i % 3 === 2) {
         echo "</div>";
       }
@@ -22,7 +22,7 @@
 
   //Generates a responsive image for the page.
   function generateImage($imageSrc, $imageAlt) {
-    echo "<img class='responsive-img materialboxed img-showcase' src='" . $imageSrc . "' alt='" . $imageAlt . "' data-caption='" . $imageAlt . "'>";
+    echo "<img class='responsive-img materialboxed img-showcase z-depth-1' src='" . $imageSrc . "' alt='" . $imageAlt . "' data-caption='" . $imageAlt . "'>";
   }
 
  ?>

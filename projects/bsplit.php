@@ -1,7 +1,7 @@
 <?php
   error_reporting(E_ALL);
   ini_set("display_errors", 1);
-  include "screenshots.php";
+  include "./common/screenshots.php";
   $imageList[0] = "images/bsplit-homepage.png";
   $imageList[1] = "images/bsplit-billview.png";
   $imageList[2] = "images/bsplit-newbill.png";
@@ -100,7 +100,7 @@
 
       <?php generateScreenshots($imageList, $altList); ?>
 
-      <?php include "pager.php"; ?>
+      <?php include "../common/pager.php"; ?>
 
     </div>
     <div class="col hide-on-small-only m2 l2">

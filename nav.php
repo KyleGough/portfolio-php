@@ -1,6 +1,6 @@
 <nav>
   <div class="nav-wrapper">
-    <a href="index.php" class="brand-logo">Kyle Gough - Portfolio</a>
+    <a href="index.php" class="brand-logo">portfolio://Kyle Gough</a>
     <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
     <ul id="nav-mobile" class="right hide-on-med-and-down">
       <li><a id="nav-link-home" href="index.php">Home</a></li>

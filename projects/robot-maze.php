@@ -1,7 +1,7 @@
 <?php
   error_reporting(E_ALL);
   ini_set("display_errors", 1);
-  include "screenshots.php";
+  include "./common/screenshots.php";
   $imageList[0] = "images/robotmaze1.png";
   $imageList[1] = "images/robotmaze2.png";
   $imageList[2] = "images/robotmaze3.png";
@@ -122,7 +122,7 @@
   <div class="container m-v-0">
     <div class="row m-v-0">
       <div class="col s12 m-v-4">
-        <?php include "pager.php"; ?>
+        <?php include "./common/pager.php"; ?>
       </div>
     </div>
   </div>
