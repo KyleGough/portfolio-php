@@ -5,9 +5,9 @@ View it live at [https://www.kylegough.co.uk/](https://www.kylegough.co.uk/)
 ### Uses:
 * HTML
 * CSS
- * Sass
+  * Sass
 * JavaScript
- * jQuery
- * Materialize
- * Bootstrap (Old version)
+  * jQuery
+  * Materialize
+  * Bootstrap (Old version)
 * PHP 
