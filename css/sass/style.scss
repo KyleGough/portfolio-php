@@ -25,6 +25,24 @@ $col-link-hover: #4CAF50;
 @import "spacing";
 
 /*----------------------------------------------------------------------------*/
+/*Typography*/
+
+$h1-fontsize: 3.5rem !default;
+$h2-fontsize: 2.75rem !default;
+$h3-fontsize: 2.3rem !default;
+$h4-fontsize: 1.8rem !default;
+$h5-fontsize: 1.2rem !default;
+$h6-fontsize: 1rem !default;
+
+h1 { font-size: $h1-fontsize!important; margin: ($h1-fontsize / 2) 0 ($h1-fontsize / 2.5) 0!important;}
+h2 { font-size: $h2-fontsize!important; margin: ($h2-fontsize / 2) 0 ($h2-fontsize / 2.5) 0!important;}
+h3 { font-size: $h3-fontsize!important; margin: ($h3-fontsize / 2) 0 ($h3-fontsize / 2.5) 0!important;}
+h4 { font-size: $h4-fontsize!important; margin: ($h4-fontsize / 2) 0 ($h4-fontsize / 2.5) 0!important;}
+h5 { font-size: $h5-fontsize!important; margin: ($h5-fontsize / 2) 0 ($h5-fontsize / 2.5) 0!important;}
+h6 { font-size: $h6-fontsize!important; margin: ($h6-fontsize / 2) 0 ($h6-fontsize / 2.5) 0!important;}
+
+/*----------------------------------------------------------------------------*/
+/*Testing Styles*/
 
 $a: 2s;
 $O: 0.6;
@@ -298,6 +316,10 @@ main { padding-top: 1em; }
 /*----------------------------------------------------------------------------*/
 /*Navigation Bar*/
 
+nav {
+  background-color: $primary-color!important;
+}
+
 .brand-logo {
   @include transition(all, 0.2s, ease-out, 0.05s);
   padding-left: 1em!important;
@@ -339,6 +361,11 @@ main { padding-top: 1em; }
 //Bottom of the footer.
 .footer-copyright {
   background-color: $primary-color-dark!important;
+}
+
+//Footer background colour.
+.page-footer {
+  background-color: $primary-color!important;
 }
 
 /*----------------------------------------------------------------------------*/

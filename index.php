@@ -55,7 +55,7 @@
           <div class="valign" style="height:100%;"></div>
           <div>
             <h3>Kyle Gough</h3>
-            <h5><small>Second Year Computer Science student at Warwick University.</small></h5>
+            <h5><small>Second Year Computer Science student at University of Warwick.</small></h5>
             <p>Welcome to my portfolio website showcasing my skills and projects completed in my spare time and at university.</p>
           </div>
         </div>
