@@ -203,7 +203,7 @@ for ($i = 0; $i < count($array); $i++) {
   echo "<div class='col s12 xl5 p-v-2'>";
   echo "<div class='valign-wrapper' style='height:100%;width:100%;'>";
   echo "<div class='valign' style='height:100%;'></div>";
-  echo "<img class='light-border z-depth-1' src='" . $project["image"] . "' alt='" . $project["alt"] . "'></div>";
+  echo "<img class='light-border z-depth-1 responsive-img' src='" . $project["image"] . "' alt='" . $project["alt"] . "'></div>";
   echo "</div></div></div></div></div>";
 }
 ?>

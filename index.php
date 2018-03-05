@@ -79,7 +79,7 @@
         <?php
           echo "<div class='valign-wrapper' style='height:100%;width:100%;'>";
           echo "<div class='valign' style='height:100%;'></div>";
-          echo "<img class='light-border z-depth-1' src='" . $featuredProject["image"] . "' alt='" . $featuredProject["alt"] . "'></div>";
+          echo "<img class='light-border z-depth-1 responsive-img' src='" . $featuredProject["image"] . "' alt='" . $featuredProject["alt"] . "'></div>";
         ?>
       </div>
     </div>
@@ -101,7 +101,7 @@
       <?php
         echo "<div class='valign-wrapper' style='height:100%;width:100%;'>";
         echo "<div class='valign' style='height:100%;'></div>";
-        echo "<img class='light-border z-depth-1' src='" . $latestProject["image"] . "' alt='" . $latestProject["alt"] . "'></div>";
+        echo "<img class='light-border z-depth-1 responsive-img' src='" . $latestProject["image"] . "' alt='" . $latestProject["alt"] . "'></div>";
       ?>
       </div>
     </div>
