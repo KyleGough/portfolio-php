@@ -376,6 +376,13 @@ nav {
   background-color: $primary-color!important;
 }
 
+.medium-and-less-centre {
+  @media only screen and (max-width : $size-medium) {
+    text-align: center!important;
+    float: none!important;
+  }
+}
+
 /*----------------------------------------------------------------------------*/
 /*Helps*/
 
