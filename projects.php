@@ -20,16 +20,11 @@
 
 <main>
 <div class="col-light-red">
-  <div class="container m-v-0">
-    <div class="row m-v-0">
-      <div class="col s12 m-v-1 section scrollspy center">
+  <div class="container">
+    <div class="row m-v-0 center">
+      <div class="col s12 m-v-4 center">
         <h3><strong>Projects</strong></h3>
-      </div>
-    </div>
-    <div class="row m-b-2">
-      <div class="col s10 offset-s1">
-        <h5><small><strong>Note:</strong> All projects subtitled with the prefix CSxxx are university
-          coursework/lab work, all other projects have been completed in my spare time to further develop my skills or as a way to learn a new language.</small></h5>
+        <h5><small><strong>Note:</strong> All projects subtitled with the prefix CSxxx are university coursework/lab work, all other projects have been completed in my spare time to further develop my skills or as a way to learn a new language.</small></h5>
       </div>
     </div>
     <!--<div class="row m-v-0">
@@ -186,10 +181,10 @@ for ($i = 0; $i < count($array); $i++) {
 
   //Chips.
   if ($project["live"] != null) {
-    echo "<div class='chip'><a class='project-link' href='" . $project["live"] . "' target='_blank'><img src='images/live.png' alt='Live Project'>View Live Version of Project</a></div>";
+    echo "<div class='chip'><a class='project-link' href='" . $project["live"] . "' target='_blank'><img class='img-live' src='images/live.png' alt='Live Project'>View Live Version of Project</a></div>";
   }
   if ($project["github"] != null) {
-    echo "<div class='chip github-chip'><a class='project-link' href='" . $project["github"] . "' target='_blank'><img src='images/github-icon.png' alt='Github Logo'>Github</a></div>";
+    echo "<div class='chip github-chip'><a class='project-link' href='" . $project["github"] . "' target='_blank'><img class='img-github' src='images/github-icon.png' alt='Github Logo'>Github</a></div>";
   }
 
   //View Project
