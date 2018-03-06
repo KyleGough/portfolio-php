@@ -21,8 +21,7 @@
         <ul>
           <li><a class="grey-text text-lighten-3 footer-link" href="index.php">Home</a></li>
           <li><a class="grey-text text-lighten-3 footer-link" href="about.php">Skills</a></li>
-          <li><a class="grey-text text-lighten-3 footer-link" href="projects.php">Projects</a></li>
-          <li><a class="grey-text text-lighten-3 footer-link" href="updates.php">Updates</a></li>
+          <li><a class="grey-text text-lighten-3 footer-link" href="projects.php">Projects</a></li>        
           <li><a class="grey-text text-lighten-3 footer-link" href="privacy.php">Privacy Policy</a></li>
           <li><a class="grey-text text-lighten-3 footer-link" href="https://github.com/KyleGough" target="_blank">Github</a></li>
         </ul>

@@ -6,14 +6,12 @@
       <li><a id="nav-link-home" href="index.php">Home</a></li>
       <li><a id="nav-link-skills" href="about.php">Skills</a></li>
       <li><a id="nav-link-projects" href="projects.php">Projects</a></li>
-      <li><a id="nav-link-updates" href="updates.php">Updates</a></li>
       <li><a href="https://github.com/KyleGough" target="_blank">Github</a></li>
     </ul>
     <ul class="side-nav" id="mobile-demo">
       <li><a href="index.php">Home</a></li>
       <li><a href="about.php">Skills</a></li>
       <li><a href="projects.php">Projects</a></li>
-      <li><a href="updates.php">Updates</a></li>
       <li><a href="https://github.com/KyleGough" target="_blank">Github</a></li>
     </ul>
   </div>
