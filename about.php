@@ -46,8 +46,8 @@
       <div id="programming" class="col s12 m-v-4 section scrollspy">
             <h3 class="center m-b-1"><strong>Programming Languages</strong></h3>
             <?php
-              generateSkill("Java", 70, "progress-programming", "Robot Maze Environment, Steganography, Witter.", "Confident (3 projects)");
-              generateSkill("C#", 55, "progress-programming", "Sorting Visualiser and Delivery Route Planner. Windows Form experience.", "Confident (2 projects)");
+              generateSkill("Java", 70, "progress-programming", "Primary programming language at University. Robot Maze Environment, Steganography, Witter.", "Confident (3 projects)");
+              generateSkill("C#", 55, "progress-programming", "Sorting Visualiser, Delivery Route Planner.", "Confident (2 projects)");
               generateSkill("Visual Basic", 45, "progress-programming", "First programming language.", "Comfortable (0 projects)");
               generateSkill("Haskell", 45, "progress-programming", "Mastermind and Scratch Clone coursework." , "Comfortable (2 projects)");
               generateSkill("C", 35, "progress-programming", "Basic knowledge. 3D-Printing algorithms for 2D and 3D Shapes.", "Beginner (2 project)");
@@ -66,18 +66,18 @@
       <div id="web" class="col s12 m-v-4 section scrollspy">
         <h3 class="center m-b-1"><strong>Web Technologies</strong></h3>
         <?php
-          generateAbbrSkill("HTML", "Hypertext Markup Language", 75, "progress-web", "Created websites including this portfolio, BSplit and a To Do List.", "Confident (7 projects)");
-          generateAbbrSkill("CSS", "Cascading Style Sheets", 75, "progress-web", "Styled this website and coursework website from CS139 using CSS.", "Confident (7 projects)");
-          generateAbbrSkill("Sass", "Syntactically Awesome Style Sheets", 50, "progress-web", "Used for this website to make the CSS more readable and maintainable.", "Comfortable (1 project)");
-          generateAbbrSkill("PHP", "PHP Hypertext Preprocessor", 30, "progress-web", "Used in CS139 Coursework and portfolio.", "Beginner (3 projects)");
-          generateSkill("JavaScript", 30, "progress-web", "Created Tic Tac Toe game and validation for forms.", "Comfortable (6 projects)");
+          generateAbbrSkill("HTML", "Hypertext Markup Language", 85, "progress-web", "Created websites including this portfolio, BSplit and a To Do List.", "Confident (7 projects)");
+          generateAbbrSkill("CSS", "Cascading Style Sheets", 85, "progress-web", "Styled this website and coursework website from CS139 using CSS.", "Confident (7 projects)");
+          generateAbbrSkill("Sass", "Syntactically Awesome Style Sheets", 60, "progress-web", "Used for this website to make the CSS more readable and maintainable.", "Comfortable (1 project)");
+          generateAbbrSkill("PHP", "PHP Hypertext Preprocessor", 40, "progress-web", "Used in CS139 Coursework and portfolio.", "Beginner (3 projects)");
+          generateSkill("JavaScript", 55, "progress-web", "Graph Algorithm Visualiser, RSCBot", "Comfortable (6 projects)");
         ?>
         <h5 class="m-b-1">Frameworks</h5>
         <?php
           generateSkill("Node.js", 10, "progress-web", "Used for URL Shortener.", "Beginner (1 project)");
-          generateSkill("jQuery", 30, "progress-web", "Used for CS139 coursework.", "Comfortable (5 projects)");
-          generateSkill("Bootstrap", 60, "progress-web", "Designed this website and CS139 coursework using Bootstrap.", "Comfortable (2 projects)");
-          generateSkill("Materialize", 65, "progress-web", "Used to design a version of my portfolio website.", "Comfortable (2 project)");
+          generateSkill("jQuery", 50, "progress-web", "Used for CS139 coursework.", "Comfortable (5 projects)");
+          generateSkill("Bootstrap", 55, "progress-web", "Designed this website and CS139 coursework using Bootstrap.", "Comfortable (2 projects)");
+          generateSkill("Materialize", 75, "progress-web", "Used to design a version of my portfolio website.", "Comfortable (2 project)");
         ?>
       </div>
     </div>
@@ -107,7 +107,7 @@
         <h3 class="center m-b-1"><strong>Extra</strong></h3>
         <?php
           generateSkill("Bash", 40, "progress-other", "Shell Scripting exercises. Finding security defects in a Virtual Machine.", "");
-          generateSkill("Git", 15, "progress-other", "Used to maintain this website and other projects.", "");
+          generateSkill("Git", 40, "progress-other", "Used to maintain various personal and group projects.", "");
           generateSkill("LaTeX", 15, "progress-other", "Basic commands. Created a Linux Reference guide using LaTeX.", "Beginner (1 projects)");
         ?>
         <h5>Other</h5>

@@ -56,7 +56,6 @@
           with new technologies learnt during university and in my spare time including:
           PHP, Bootstrap, JavaScript, jQuery and Materialize CSS.</p>
         <div class="chip github-chip"><a class="project-link" href="https://github.com/KyleGough/portfolio" target="_blank"><img src="images/github-icon.png" alt="Github Logo">Github</a></div>
-        <div class="chip"><a class="project-link" href="projects.php">View All Projects</a></div>
       </div>
       <div class="divider"></div>
 
@@ -79,6 +78,8 @@
       <div class="divider"></div>
 
       <?php generateScreenshots($imageList, $altList); ?>
+
+      <div class="divider"></div>
 
       <?php include "./common/pager.php"; ?>
 

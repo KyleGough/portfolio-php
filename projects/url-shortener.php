@@ -53,7 +53,6 @@
           for routing GET and POST requests and MongoDB to store URLs. The project
           is my first using all three of these technologies. Long URLs are stored
           in the database and the ID is encoded and used as the short URL.</p>
-        <div class="chip"><a class="project-link" href="projects.php">View All Projects</a></div>
       </div>
 
       <div class="divider"></div>
@@ -80,6 +79,8 @@
       <div class="divider"></div>
 
       <?php generateScreenshots($imageList, $altList); ?>
+
+      <div class="divider"></div>
 
       <?php include "./common/pager.php"; ?>
 

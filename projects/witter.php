@@ -54,7 +54,6 @@
         <p>Implemented various data structures to store Users, Weets and Folowers for
           a fictional Twitter clone called 'Witter'. Implemented a Red-Black tree,
           Minimum heap, Hash table and Linked list.</p>
-        <div class="chip"><a class="project-link" href="projects.php">View All Projects</a></div>
       </div>
 
       <div class="divider"></div>
@@ -65,13 +64,13 @@
 
       <div id="implementation" class="section scrollspy">
         <h5>User Store</h5>
-        <ul class="browser-default p-l-1">
+        <ul class="browser-default p-l-1 m-b-2">
           <li>Stores a collection of users.</li>
           <li>Operations include insertion, retrieval and searching.</li>
           <li>Implemented using two Red-Black trees sorted by ID and Date.</li>
         </ul>
         <h5>Weet Store</h5>
-        <ul class="browser-default p-l-1">
+        <ul class="browser-default p-l-1 m-b-2">
           <li>Stores a collection of weets.</li>
           <li>Operations include insertion, retrieval and searching.</li>
           <li>Implemented using two Red-Black trees sorted by ID and Date.</li>
@@ -98,6 +97,8 @@
       <div class="divider"></div>
 
       <?php generateScreenshots($imageList, $altList); ?>
+
+      <div class="divider"></div>
 
       <?php include "./common/pager.php"; ?>
 

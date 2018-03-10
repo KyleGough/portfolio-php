@@ -30,6 +30,7 @@
   include_once("../nav.php");
 ?>
 
+<main>
 <div class="container">
   <div class="row">
     <div id="contents" class="col s12 m10 l10 m-t-2">
@@ -60,7 +61,6 @@
           and separate them into categories. The project integrates many web
           development technologies and is programmed to be protected from SQL
           injections and XSS.</p>
-        <div class="chip"><a class="project-link" href="projects.php">View All Projects</a></div>
       </div>
 
       <div class="divider"></div>
@@ -88,6 +88,8 @@
       <div class="divider"></div>
 
       <?php generateScreenshots($imageList, $altList); ?>
+
+      <div class="divider"></div>
 
       <?php include "./common/pager.php"; ?>
 

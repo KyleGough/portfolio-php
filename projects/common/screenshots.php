@@ -3,7 +3,7 @@
   //Generates the screenshot section for the project page.
   function generateScreenshots($imageList, $altList) {
     echo "<div id='screenshots' class='section scrollspy'>";
-    echo "<h4>Screenshots</h4>";
+    echo "<h4 class='m-b-1'>Screenshots</h4>";
     $imageCount = count($imageList);
     for($i = 0; $i < $imageCount; $i++) {
       if($i % 3 === 0) {

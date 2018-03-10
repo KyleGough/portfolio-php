@@ -55,7 +55,6 @@
           using JavaScript and better understand graph algorithms.</p>
         <div class="chip"><a class="project-link" href="graph-algorithm-visualiser/index.html" target="_blank"><img src="images/live.png" alt="Live Project">View Live Version of Project</a></div>
         <div class="chip github-chip"><a class="project-link" href="https://github.com/KyleGough/graph-algorithm-visualiser" target="_blank"><img src="images/github-icon.png" alt="Github Logo">Github</a></div>
-        <div class="chip"><a class="project-link" href="projects.php">View All Projects</a></div>
       </div>
 
       <div class="divider"></div>
@@ -84,6 +83,8 @@
       <div class="divider"></div>
 
       <?php generateScreenshots($imageList, $altList); ?>
+
+      <div class="divider"></div>
 
       <?php include "./common/pager.php"; ?>
 

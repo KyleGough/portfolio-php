@@ -54,7 +54,6 @@
           or multiple loops. The final Grand Finale controller used data from the
           first run to traverse the maze more efficiently the second time. This
           project was my first experience using Java.</p>
-        <div class="chip"><a class="project-link" href="projects.php">View All Projects</a></div>
       </div>
     </div>
   </div>

@@ -60,7 +60,6 @@
           tool for myself for understanding different sorting algorithms and their
           applications due to their characteristics.</p>
         <div class="chip github-chip"><a class="project-link" href="https://github.com/KyleGough/sorting-algorithm-visualiser" target="_blank"><img src="images/github-icon.png" alt="Github Logo">Github</a></div>
-        <div class="chip"><a class="project-link" href="projects.php">View All Projects</a></div>
       </div>
     </div>
   </div>
@@ -79,7 +78,7 @@
 <div class="col-light-blue">
   <div class="container m-v-0">
     <div class="row m-v-0">
-      <div class="col s12 l6 m-t-4 m-b-2">
+      <div class="col s12 l6 m-v-2">
         <h4>Features</h4>
         <ul class="browser-default p-l-1">
           <li>Real-time visualiser which can also be paused and stopped.
@@ -92,7 +91,7 @@
           <li>Custom colours and data display styles</li>
         </ul>
       </div>
-      <div class="col s12 l6 m-b-4 m-t-2">
+      <div class="col s12 l6 m-v-2">
         <h4>Algorithms</h4>
         <ul>
           <li><b>Bitonic</b> - Parallel sorting algorithm</li>

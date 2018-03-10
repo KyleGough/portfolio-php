@@ -36,7 +36,7 @@
 
       <div class="section">
         <div class="row center">
-          <h3><strong>BSplit - Bill splitter application</strong></h3>
+          <h3><strong>BSplit - Bill Splitter Application</strong></h3>
           <h5><strong>CS139: Coursework</strong></h5>
         </div>
         <div class="row center">
@@ -61,7 +61,6 @@
           The app's dashboard utilises AJAX requests to prevent web page reloading to enchance
           user experience. Dashboard and Email notifications are sent when a new bill or group
           is created.</p>
-        <div class="chip"><a class="project-link" href="projects.php">View All Projects</a></div>
       </div>
 
       <div class="divider"></div>
@@ -100,7 +99,9 @@
 
       <?php generateScreenshots($imageList, $altList); ?>
 
-      <?php include "../common/pager.php"; ?>
+      <div class="divider"></div>
+
+      <?php include "./common/pager.php"; ?>
 
     </div>
     <div class="col hide-on-small-only m2 l2">

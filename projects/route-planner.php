@@ -56,7 +56,6 @@
           and their deliveries. Produced a report which communicates the route, all
           items in the deliveries and the estimated time. Used graph algorithms such
           as Dijkstra's and Nearest Neighbour with 2-Opt to optimise the route.</p>
-        <div class="chip"><a class="project-link" href="projects.php">View All Projects</a></div>
       </div>
     </div>
   </div>
