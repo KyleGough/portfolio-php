@@ -1,5 +1,29 @@
 [
   {
+    "ID": "rscbot",
+    "shortName": "RSCBot",
+    "title": "RSCBot",
+    "subtitle": "CS261: Software Engineering Group Project",
+    "date": "February 2018 - March 2018",
+    "languages": [
+      {"id": "js", "name": "JavaScript"},
+      {"id": "jquery", "name": "jQuery"},
+      {"id": "html", "name": "HTML"},
+      {"id": "css", "name": "CSS"},
+      {"id": "materialize", "name": "Materialize"},
+      {"id": "sql", "name": "SQL"},
+      {"id": "mysql", "name": "MySQL"},
+      {"id": "php", "name": "PHP"}
+    ],
+    "description": "A specialised, personalisable Trader ChatBot that can fetch data and current news on stocks and sectors from the FTSE 100 index. Our ChatBot communicates with the user in a natural way, and has been designed to identify and adapt to the user’s main interests in the stock market, making for a more personal trading experience.",
+    "image": null,
+    "alt": "RSCBot",
+    "disabled": true,
+    "github": null,
+    "live": null,
+    "categories": {"uni": 1, "per": 0, "web": 0}
+  },
+  {
     "ID": "scratch-clone",
     "shortName": "Scratch Clone",
     "title": "Scratch Clone",
