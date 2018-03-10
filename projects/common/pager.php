@@ -22,16 +22,18 @@
         }
       }
     }
-    if ($previousIndex == -1) {
-      //echo "<div class='chip left m-l-1'><a class='disabled'>Previous Project</a></div>";
 
-      echo "<a class='left m-v-2 btn btn-flat btn-boxed-primary disabled'>Previous Project</a>";
+    echo "<div class='row'>"; //###
+    echo "<div class='col s12 m6 center'>"; //###
+
+    if ($previousIndex == -1) {
+      echo "<a class='btn-pager m-v-2 btn btn-flat btn-boxed-primary disabled'>Previous Project</a>";
     }
     else {
-      //echo "<div class='chip left m-l-1'><a class='project-link' href='projects/" . $array[$previousIndex]["ID"] . ".php'>Previous Project</a></div>";
-
-      echo "<a href='projects/" . $array[$previousIndex]["ID"] . ".php' class='left m-v-2 btn btn-flat btn-boxed-primary'>Previous Project</a>";
+      echo "<a href='projects/" . $array[$previousIndex]["ID"] . ".php' class='btn-pager m-v-2 btn btn-flat btn-boxed-primary'>Previous Project</a>";
     }
+
+    echo "</div>"; //###
 
     if ($matchedIndex != 0) {
       for ($j = $matchedIndex - 1; $j >= 0; $j--) {
@@ -41,16 +43,18 @@
         }
       }
     }
-    if ($nextIndex == -1) {
-      //echo "<div class='chip right m-r-1'><a class='disabled'>Next Project</a></div>";
 
-      echo "<a class='right m-v-2 btn btn-flat btn-boxed-primary disabled'>Next Project</a>";
+    echo "<div class='col s12 m6 center'>"; //###
+
+    if ($nextIndex == -1) {
+      echo "<a class='btn-pager m-v-2 btn btn-flat btn-boxed-primary disabled'>Next Project</a>";
     }
     else {
-      //echo "<div class='chip right m-r-1'><a class='project-link' href='projects/" . $array[$nextIndex]["ID"] . ".php'>Next Project</a></div>";
-
-      echo "<a href='projects/" . $array[$nextIndex]["ID"] . ".php' class='right m-v-2 btn btn-flat btn-boxed-primary'>Next Project</a>";
+      echo "<a href='projects/" . $array[$nextIndex]["ID"] . ".php' class='btn-pager m-v-2 btn btn-flat btn-boxed-primary'>Next Project</a>";
     }
+
+      echo "</div>"; //###
+      echo "</div>"; //###
 
   }
 ?>
