@@ -30,19 +30,10 @@
         </div>
       </div>
       <div class="row">
-        <div class="col s12 l6 m-b-1">
-          <a href="index.php" class="btn btn-flat btn-boxed-primary full-width">Homepage</a>
-        </div>
-        <div class="col s12 l6 m-b-1">
-          <a href="about.php" class="btn btn-flat btn-boxed-primary full-width">Skills</a>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col s12 l6 m-b-1">
-          <a href="projects.php" class="btn btn-flat btn-boxed-primary full-width">Projects</a>
-        </div>
-        <div class="col s12 l6 m-b-1">
-          <a href="updates.php" class="btn btn-flat btn-boxed-primary full-width">Updates</a>
+        <div class="col s12 l8 offset-l2 m-b-1">
+          <a href="index.php" class="btn btn-flat btn-boxed-primary full-width m-v-1">Homepage</a>
+          <a href="about.php" class="btn btn-flat btn-boxed-primary full-width m-v-1">Skills</a>
+          <a href="projects.php" class="btn btn-flat btn-boxed-primary full-width m-v-1">Projects</a>
         </div>
       </div>
     </div>

@@ -215,12 +215,12 @@ main { padding-top: 1em; }
 /*Errors*/
 
 .error-code {
-  font-size: 20vw;
+  font-size: 20vw!important;
   color: darken(#E0E0E0, 55%);
 }
 
 .error-detail {
-  font-size: 3vw;
+  font-size: 3vw!important;
   color: darken(#E0E0E0, 55%);
 }
 
