@@ -27,6 +27,7 @@
           <h1 class="error-code m-b-0">500</h1>
           <h3 class="error-detail m-t-0">Internal Server Error</h3>
           <p>Unfortunately the server encountered an internal error. Please navigate to a different page using the following links.</p>
+          <p>You can submit a bug report by emailing: <a href"mailto:contact@kylegough.co.uk">contact@kylegough.co.uk</a></p>
         </div>
       </div>
       <div class="row">

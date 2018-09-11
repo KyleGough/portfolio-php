@@ -27,6 +27,7 @@
           <h1 class="error-code m-b-0">403</h1>
           <h3 class="error-detail m-t-0">Forbidden</h3>
           <p>You don't have permission to access this page. Please navigate to a different page using the following links.</p>
+          <p>You can submit a bug report by emailing: <a href"mailto:contact@kylegough.co.uk">contact@kylegough.co.uk</a></p>
         </div>
       </div>
       <div class="row">
