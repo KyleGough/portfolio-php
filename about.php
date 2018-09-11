@@ -11,7 +11,7 @@
     include "head.php";
     include "skills.php";
   ?>
-  <title>Skills</title>
+  <title>Kyle Gough | Skills</title>
 </head>
 
 <body>
@@ -106,16 +106,17 @@
       <div id="extra" class="col s12 m-v-4 section scrollspy">
         <h3 class="center m-b-1"><strong>Extra</strong></h3>
         <?php
-          generateSkill("Bash", 40, "progress-other", "Shell Scripting exercises. Finding security defects in a Virtual Machine.", "");
+          generateSkill("Bash", 50, "progress-other", "Shell Scripting exercises. Finding security defects in a Virtual Machine.", "");
           generateSkill("Git", 40, "progress-other", "Used to maintain various personal and group projects.", "");
-          generateSkill("LaTeX", 15, "progress-other", "Basic commands. Created a Linux Reference guide using LaTeX.", "Beginner (1 projects)");
+          generateSkill("LaTeX", 25, "progress-other", "Basic commands. Created a Linux Reference guide using LaTeX.", "");
+          generateSkill("Alloy", 10, "progress-other", "Simple exercises, CS262 Coursework.", "Beginner (1 project)")
         ?>
-        <h5>Other</h5>
+        <!--<h5>Other</h5>
         <ul>
           <li><b>Operating Systems:</b> Windows, Linux (Redhat, Ubuntu)</li>
           <li><b>IDEs:</b> Visual Studio, IntelliJ</li>
           <li><b>Other:</b> Microsoft Office, Adobe Photoshop, Adobe After Effects</li>
-        </ul>
+        </ul>-->
       </div>
     </div>
   </div>

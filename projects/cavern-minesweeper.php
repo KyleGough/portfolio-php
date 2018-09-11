@@ -18,7 +18,7 @@
 <head>
   <base href="../">
   <?php include "../head.php"; ?>
-  <title>Cavern Minesweeper</title>
+  <title>Projects | Cavern Minesweeper</title>
 </head>
 
 <body>

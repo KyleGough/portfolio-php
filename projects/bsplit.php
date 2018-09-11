@@ -20,7 +20,7 @@
 <head>
   <base href="../">
   <?php include "../head.php"; ?>
-  <title>BSplit</title>
+  <title>Projects | BSplit</title>
 </head>
 
 <body>

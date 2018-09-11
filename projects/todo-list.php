@@ -20,7 +20,7 @@
 <head>
   <base href="../">
   <?php include "../head.php"; ?>
-  <title>To Do List</title>
+  <title>Projects | To Do List</title>
 </head>
 
 <body>
@@ -101,7 +101,7 @@
           <li><a href="#features">Features</a></li>
           <li><a href="#screenshots">Screenshots</a></li>
         </ul>
-      </div>    
+      </div>
     </div>
   </div>
 </div>

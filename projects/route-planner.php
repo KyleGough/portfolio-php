@@ -19,7 +19,7 @@
 <head>
   <base href="../">
   <?php include "../head.php"; ?>
-  <title>Delivery Route Planner</title>
+  <title>Projects | Delivery Route Planner</title>
 </head>
 
 <body>

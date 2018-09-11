@@ -9,7 +9,7 @@
 <head>
   <base href="">
   <?php include "head.php"; ?>
-  <title>Kyle Gough - Portfolio</title>
+  <title>Kyle Gough | Portfolio</title>
 </head>
 
 <body>
@@ -48,7 +48,12 @@
   <div class="container">
     <div class="row flex p-v-2 m-b-0">
       <div class="col s12 m3 l3 m-v-2">
-        <img class="responsive-img circle" src="images/code.png">
+        <!--<img class="responsive-img circle" src="images/code.png">-->
+        <div class="g">
+          <div class="circle-1 rotate1"></div>
+          <div class="circle-1 rotate2"></div>
+          <div class="circle-1 rotate3"></div>
+        </div>
       </div>
       <div class="col s12 m9 l9 m-v-2">
         <div class="valign-wrapper" style="height:100%;width:100%;">

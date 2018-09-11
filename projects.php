@@ -8,7 +8,7 @@
 <head>
   <base href="">
   <?php include "head.php"; ?>
-  <title>Project List</title>
+  <title>Kyle Gough | Projects</title>
 </head>
 
 <body>

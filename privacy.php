@@ -8,7 +8,7 @@
 <head>
   <base href="">
   <?php include "head.php"; ?>
-  <title>Privacy Policy</title>
+  <title>Kyle Gough | Privacy Policy</title>
 </head>
 
 <body>

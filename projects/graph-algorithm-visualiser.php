@@ -22,7 +22,7 @@
 <head>
   <base href="../">
   <?php include "../head.php"; ?>
-  <title>Graph Algorithm Visualiser</title>
+  <title>Projects | Graph Algorithm Visualiser</title>
 </head>
 
 <body>

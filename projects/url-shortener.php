@@ -16,7 +16,7 @@
 <head>
   <base href="../">
   <?php include "../head.php"; ?>
-  <title>URL Shortener</title>
+  <title>Projects | URL Shortener</title>
 </head>
 
 <body>
