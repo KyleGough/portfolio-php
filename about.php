@@ -11,7 +11,7 @@
     include "head.php";
     include "skills.php";
   ?>
-  <title>Kyle Gough | Skills</title>
+  <title>Kyle Gough - Skills</title>
 </head>
 
 <body>
@@ -27,7 +27,7 @@
     <div class="row center m-v-0">
       <div class="col s12 m-v-4">
         <h3><strong>About Me</strong></h3>
-        <h5><small>Second Year Computer Science student at University of Warwick.</small></h5>
+        <h5><small>Third Year Computer Science Student at University of Warwick.</small></h5>
         <p class="m-t-3" style="text-align: left;">I love learning new languages, frameworks and
           technologies in my spare time exploring their different uses and applications.
           I aim to learn a new language/technology every university term outside of

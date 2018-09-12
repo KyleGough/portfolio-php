@@ -18,7 +18,7 @@
   <?php include "../head.php"; ?>
   <link type="text/css" rel="stylesheet" href="css/tictactoe.css"  media="screen,projection">
   <script src="js/tictactoe.js"></script>
-  <title>Projects | Tic Tac Toe AI</title>
+  <title>Projects - Tic Tac Toe AI</title>
 </head>
 
 <body>

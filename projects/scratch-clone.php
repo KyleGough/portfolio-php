@@ -14,7 +14,7 @@
 <head>
   <base href="../">
   <?php include "../head.php"; ?>
-  <title>Projects | Scratch Clone</title>
+  <title>Projects - Scratch Clone</title>
 </head>
 
 <body>

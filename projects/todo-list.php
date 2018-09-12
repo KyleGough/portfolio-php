@@ -20,7 +20,7 @@
 <head>
   <base href="../">
   <?php include "../head.php"; ?>
-  <title>Projects | To Do List</title>
+  <title>Projects - To Do List</title>
 </head>
 
 <body>

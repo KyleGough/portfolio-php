@@ -16,7 +16,7 @@
 <head>
   <base href="../">
   <?php include "../head.php"; ?>
-  <title>Projects | Steganography</title>
+  <title>Projects - Steganography</title>
 </head>
 
 <body>

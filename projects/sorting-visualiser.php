@@ -20,7 +20,7 @@
 <head>
   <base href="../">
   <?php include "../head.php"; ?>
-  <title>Projects | Sorting Visualiser</title>
+  <title>Projects - Sorting Visualiser</title>
 </head>
 
 <body>

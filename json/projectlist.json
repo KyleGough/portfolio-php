@@ -18,7 +18,7 @@
     "description": "A specialised, personalisable Trader ChatBot that can fetch data and current news on stocks and sectors from the FTSE 100 index. Our ChatBot communicates with the user in a natural way, and has been designed to identify and adapt to the user’s main interests in the stock market, making for a more personal trading experience.",
     "image": "images/rscbot3.png",
     "alt": "RSCBot",
-    "disabled": true,
+    "disabled": false,
     "github": null,
     "live": null,
     "categories": {"uni": 1, "per": 0, "web": 0}
@@ -87,7 +87,7 @@
     "description": "A Haskell console program that simulates a player vs computer game of the board-game Mastermind. The computer was made to solve a game in 5 moves or less utilising Knuth's mastermind algorithm. This project is my first using a functional programming language.",
     "image": "images/mastermind1.png",
     "alt": "Mastermind",
-    "disabled": true,
+    "disabled": false,
     "github": null,
     "live": null,
     "categories": {"uni": 1, "per": 0, "web": 0}

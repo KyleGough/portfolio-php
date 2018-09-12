@@ -9,7 +9,7 @@
 <head>
   <base href="">
   <?php include "head.php"; ?>
-  <title>Kyle Gough | Portfolio</title>
+  <title>Kyle Gough - Portfolio</title>
 </head>
 
 <body>
