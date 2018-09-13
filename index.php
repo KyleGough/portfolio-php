@@ -117,7 +117,7 @@
   <div class="container">
     <div class="row center m-v-0">
       <div class="col s12 m-v-4 center">
-        <p>For a list of all my projects <a href="projects.php" class="project-link">click here.</a></p>
+        <p>For a list of all my projects <a href="projectlist.php" class="project-link">click here.</a></p>
       </div>
     </div>
   </div>
