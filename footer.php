@@ -20,7 +20,7 @@
       <div class="col l4 m6 s6 center m-v-2">
         <h5 class="white-text">Website</h5>
         <ul>
-          <li><a class="grey-text text-lighten-3 footer-link" href="index.php">Home</a></li>
+          <li><a class="grey-text text-lighten-3 footer-link" href="./">Home</a></li>
           <li><a class="grey-text text-lighten-3 footer-link" href="about.php">Skills</a></li>
           <li><a class="grey-text text-lighten-3 footer-link" href="projectlist.php">Projects</a></li>
           <li><a class="grey-text text-lighten-3 footer-link" href="privacy.php">Privacy Policy</a></li>

@@ -37,11 +37,11 @@
     <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
     <ul id="nav-mobile" class="right hide-on-med-and-down">
       <li><a href="https://github.com/KyleGough" target="_blank">View Project on Github</a></li>
-      <li><a href="http://www.kylegough.co.uk/" target="_blank">Portfolio</a></li>
+      <li><a href="https://www.kylegough.co.uk/" target="_blank">Portfolio</a></li>
     </ul>
     <ul class="side-nav" id="mobile-demo">
       <li><a href="https://github.com/KyleGough" target="_blank">View Project on Github</a></li>
-      <li><a href="http://www.kylegough.co.uk/" target="_blank">Portfolio</a></li>
+      <li><a href="https://www.kylegough.co.uk/" target="_blank">Portfolio</a></li>
     </ul>
   </div>
 </nav>
@@ -151,7 +151,7 @@
   </div>
   <div class="footer-copyright">
     <div class="container">
-      &copy; 2017 Kyle Gough - <a target="_blank" href="http://www.kylegough.co.uk">My Portfolio</a> - <a target="_blank" href="https://github.com/KyleGough/graph-algorithm-visualiser">View Project on Github</a>
+      &copy; 2017 Kyle Gough - <a target="_blank" href="https://www.kylegough.co.uk">My Portfolio</a> - <a target="_blank" href="https://github.com/KyleGough/graph-algorithm-visualiser">View Project on Github</a>
     </div>
   </div>
 </footer>

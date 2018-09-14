@@ -53,7 +53,7 @@
           graphs such as: Prim's, Kruskal's, Graham Scan, Nearest Neighbour and 2-Opt.
           The project was primarily a learning tool to help me improve my ability
           using JavaScript and better understand graph algorithms.</p>
-        <div class="chip"><a class="project-link" href="graph-algorithm-visualiser/index.html" target="_blank"><img src="images/live.png" alt="Live Project">View Live Version of Project</a></div>
+        <div class="chip"><a class="project-link" href="graph-algorithm-visualiser/" target="_blank"><img src="images/live.png" alt="Live Project">View Live Version of Project</a></div>
         <div class="chip github-chip"><a class="project-link" href="https://github.com/KyleGough/graph-algorithm-visualiser" target="_blank"><img src="images/github-icon.png" alt="Github Logo">Github</a></div>
       </div>
 

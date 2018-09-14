@@ -127,7 +127,7 @@
     "alt": "Graph Algorithm Visualiser",
     "disabled": false,
     "github": "https://github.com/KyleGough/graph-algorithm-visualiser",
-    "live" : "graph-algorithm-visualiser/index.html",
+    "live" : "graph-algorithm-visualiser/",
     "categories" : {"uni": 0, "per": 1, "web": 1}
   },
   {
