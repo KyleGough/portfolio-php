@@ -7,7 +7,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <base href="">
+  <base href="./">
   <?php include "head.php"; ?>
   <title>Kyle Gough - Portfolio</title>
 </head>
@@ -60,7 +60,7 @@
           <div class="valign" style="height:100%;"></div>
           <div>
             <h3>Kyle Gough</h3>
-            <h5><small>Second Year Computer Science student at University of Warwick.</small></h5>
+            <h5><small>Third Year Computer Science Student at University of Warwick.</small></h5>
             <p>Welcome to my portfolio website showcasing my skills and projects completed in my spare time and at university.</p>
           </div>
         </div>
@@ -117,7 +117,7 @@
   <div class="container">
     <div class="row center m-v-0">
       <div class="col s12 m-v-4 center">
-        <p>For a list of all my projects <a href="projectlist.php" class="project-link">click here.</a></p>
+        <p>For a list of all my projects <a href="projects.php" class="project-link">click here.</a></p>
       </div>
     </div>
   </div>

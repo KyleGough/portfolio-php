@@ -6,7 +6,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <base href="">
+  <base href="./">
   <?php
     include "head.php";
     include "skills.php";
@@ -34,7 +34,7 @@
           the regular curriculum. Languages/Frameworks/Technologies I have explored in
           my spare time so far include: C#, Haskell, Ruby, Python, Node.js, Sass, Bootstrap,
           Materialize and MongoDB. I have also created some projects using these languages
-          where I feel confident enough. You can view a list of my projects <a class="project-link" href="projectlist.php">here.</a></p>
+          where I feel confident enough. You can view a list of my projects <a class="project-link" href="projects.php">here.</a></p>
       </div>
     </div>
   </div>
@@ -133,10 +133,10 @@
           <li>CS126: Design of Information Structures<i class="material-icons icon-arrow">arrow_forward</i><a class="project-link" href="projects/witter.php">Witter Coursework</a></li>
           <li>CS130: Mathematics for Computer Scientists I</li>
           <li>CS131: Mathematics for Computer Scientists II</li>
-          <li>CS132: Computer Organisation and Architecture<i class="material-icons icon-arrow">arrow_forward</i><a class="project-link" href="projectlist.php#cs132">3D Printer Coursework</a></li>
-          <li>CS133: Professional Skills<i class="material-icons icon-arrow">arrow_forward</i><a class="project-link" href="projectlist.php#cs133">Linux Reference Guide</a></li>
+          <li>CS132: Computer Organisation and Architecture<i class="material-icons icon-arrow">arrow_forward</i><a class="project-link" href="projects.php#cs132">3D Printer Coursework</a></li>
+          <li>CS133: Professional Skills<i class="material-icons icon-arrow">arrow_forward</i><a class="project-link" href="projects.php#cs133">Linux Reference Guide</a></li>
           <li>CS139: Web Development Technologies<i class="material-icons icon-arrow">arrow_forward</i><a class="project-link" href="projects/todo-list.php">To Do List Lab Work</a>, <a class="project-link" href="projects/bsplit.php">Bill Splitter Coursework</a></li>
-          <li>CS140: Computer Security<i class="material-icons icon-arrow">arrow_forward</i><a class="project-link" href="projectlist.php#cs140">Virtual Machine Lab Work</a></li>
+          <li>CS140: Computer Security<i class="material-icons icon-arrow">arrow_forward</i><a class="project-link" href="projects.php#cs140">Virtual Machine Lab Work</a></li>
         </ul>
         <br>
         <h5>Year 2 Modules</h5>
@@ -164,7 +164,7 @@
           <li>Algorithm Visualisers<i class="material-icons icon-arrow">arrow_forward</i><a class="project-link" href="projects/sorting-visualiser.php">Sorting Algorithm Visualiser</a>, <a class="project-link" href="projects/graph-algorithm-visualiser.php">Graph Algorithm Visualiser</a></li>
           <li>Artificial Intelligence<i class="material-icons icon-arrow">arrow_forward</i><a class="project-link" href="projects/tic-tac-toe.php">Tic Tac Toe AI</a></li>
           <li>Quantum Computing</li>
-          <li>Computer Security<i class="material-icons icon-arrow">arrow_forward</i><a class="project-link" href="projectlist.php#cs140">Virtual Machine Lab Work</a></li>
+          <li>Computer Security<i class="material-icons icon-arrow">arrow_forward</i><a class="project-link" href="projects.php#cs140">Virtual Machine Lab Work</a></li>
         </ul>
       </div>
     </div>

@@ -6,7 +6,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <base href="">
+  <base href="./">
   <?php include "head.php"; ?>
   <title>Kyle Gough - Projects</title>
 </head>
