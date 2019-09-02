@@ -42,8 +42,7 @@
 
       <div id="overview" class="section scrollspy">
         <p><strong>Date:</strong> December 2017</p>
-        <p></p>
-        <div class="chip"><a class="project-link" href="projects.php">View All Projects</a></div>
+        <p></p>        
       </div>
 
       <div class="divider"></div>

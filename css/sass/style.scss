@@ -286,7 +286,8 @@ main { padding-top: 1em; }
   &[data-language="JavaScript"],
   &[data-language="jQuery"],
   &[data-language="PHP"],
-  &[data-language="NodeJS"] {
+  &[data-language="NodeJS"],
+  &[data-language="C++"] {
     background-color: lighten($col-programming, $shift-amount);
   }
 
@@ -307,7 +308,9 @@ main { padding-top: 1em; }
   }
 
   &[data-language="LaTeX"],
-  &[data-language="Bash"] {
+  &[data-language="Bash"],
+  &[data-language="Alloy"],
+  &[data-language="OpenGL"] {
     background-color: lighten($col-other, $shift-amount);
   }
 }

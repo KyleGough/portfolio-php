@@ -6,10 +6,9 @@
   <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"> <!--Import Google Icon Font-->
   <link type="text/css" rel="stylesheet" href="css/materialize.css"  media="screen,projection"> <!--Import materialize.css-->
   <link type="text/css" rel="stylesheet" href="css/style.css" media="screen,projection"> <!--Import custom CSS-->
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-  <script type="text/javascript" src="js/materialize.min.js"></script>
-  <script type="text/javascript" src="js/main.js"></script>
-  <script async defer src="https://buttons.github.io/buttons.js"></script>
+  <script defer src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script defer type="text/javascript" src="js/materialize.min.js"></script>
+  <script defer type="text/javascript" src="js/main.js"></script>  
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="icon" href="favicon.ico">
   <meta name="author" content="Kyle Gough">

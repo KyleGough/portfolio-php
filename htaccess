@@ -1,44 +1,60 @@
-CheckSpelling Off
-AddType x-httpd-php71 .php
+### Cache-Control Headers.
+<filesMatch ".(ico|pdf|flv|jpg|jpeg|png|gif|js|css|swf)$">
+    Header set Cache-Control "max-age=2592000, public"
+</filesMatch>
 
 
-##Forces HTTPS Protocol.
-RewriteEngine On
-RewriteBase /
-RewriteCond %{HTTPS} !on
-RewriteCond %{REQUEST_URI} !^/[0-9]+\..+\.cpaneldcv$
-RewriteCond %{REQUEST_URI} !^/\.well-known/pki-validation/[A-F0-9]{32}\.txt(?:\ Comodo\ DCV)?$
-RewriteRule (.*) https://%{HTTP_HOST}%{REQUEST_URI}
+### Expires Headers.
+<IfModule mod_expires.c>
+    ExpiresActive On
+    ExpiresByType image/jpg "access 1 year"
+    ExpiresByType image/jpeg "access 1 year"
+    ExpiresByType image/gif "access 1 year"
+    ExpiresByType image/png "access 1 year"
+    ExpiresByType text/css "access 1 month"
+    ExpiresByType text/html "access 1 month"
+    ExpiresByType application/pdf "access 1 month"
+    ExpiresByType text/x-javascript "access 1 month"
+    ExpiresByType application/x-shockwave-flash "access 1 month"
+    ExpiresByType image/x-icon "access 1 year"
+    ExpiresDefault "access 1 month"
+</IfModule>
 
 
-##Removes .php in URL.
-RewriteEngine On
-RewriteRule ^(wp-admin)($|/) - [L] # You don't want to mess with WordPress
-RewriteCond %{REQUEST_FILENAME} !-d
-RewriteCond %{REQUEST_FILENAME}\.php -f
-RewriteRule .* $0.php
+### GZIP Compression.
+<ifmodule mod_deflate.c>
+    AddOutputFilterByType DEFLATE text/text text/html text/plain text/xml text/css application/x-javascript application/javascript
+</ifmodule>
 
-# Browser requests PHP.
-RewriteCond %{THE_REQUEST} ^[A-Z]{3,9}\ /([^\ ]+)\.php
-RewriteRule ^/?(.*)\.php$ /$1 [L,R=301]
-
-# Check to see if the request is for a PHP file.
-RewriteCond %{REQUEST_FILENAME}\.php -f
-RewriteRule ^/?(.*)$ /$1.php [L]
-
-
-##Prevents illegal characters in the URL.
-RewriteCond %{THE_REQUEST} !^[A-Z]{3,9}\ [a-zA-Z0-9\.\+_/\-\?\=\&]+\ HTTP/ [NC]
-RewriteRule .* - [F,NS,L]
-
-
-##Disables directory browsing. Gives 403 instead of directory information.
-Options -Indexes
-
-
-## Error Pages
+### Error Pages.
 ErrorDocument 404 /error_pages/404.php
 ErrorDocument 401 /error_pages/401.php
 ErrorDocument 403 /error_pages/403.php
 ErrorDocument 405 /error_pages/405.php
 ErrorDocument 500 /error_pages/500.php
+
+### Allows following of system symbolic links.
+Options +FollowSymLinks
+
+### Disables Directory Browsing.
+Options -Indexes
+
+### mod_rewrite in use.
+RewriteEngine On
+
+### Disables the Server Signature.
+ServerSignature Off
+
+### Forces use of SSL.
+RewriteCond %{HTTPS} off
+RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+### Prevents Hot Linking.
+RewriteCond %{HTTP_REFERER} !^$
+RewriteCond %{HTTP_REFERER} !^https://(www\.)kylegough.co.uk/.*$ [NC]
+RewriteRule \.(gif|jpg|jpeg|bmp|zip|rar|mp3|flv|swf|xml|png|css|pdf)$ - [F]
+
+
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}\.php -f
+RewriteRule ^(.*)$ $1.php

@@ -44,8 +44,7 @@
         <p><strong>Date:</strong> October 2017</p>
         <p>A Haskell console program that simulates a player vs computer game
           of the board-game Mastermind. The computer was made to solve a game in 5
-          moves or less utilising Knuth's mastermind algorithm.</p>
-        <div class="chip"><a class="project-link" href="projects.php">View All Projects</a></div>
+          moves or less utilising Knuth's mastermind algorithm.</p>        
       </div>
 
       <div class="divider"></div>

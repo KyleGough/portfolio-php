@@ -32,9 +32,9 @@
       </div>
       <div class="row">
         <div class="col s12 l8 offset-l2 m-b-1">
-          <a href="index.php" class="btn btn-flat btn-boxed-primary full-width m-v-1">Homepage</a>
-          <a href="about.php" class="btn btn-flat btn-boxed-primary full-width m-v-1">Skills</a>
-          <a href="projects.php" class="btn btn-flat btn-boxed-primary full-width m-v-1">Projects</a>
+          <a href="./" class="btn btn-flat btn-boxed-primary full-width m-v-1">Homepage</a>
+          <a href="about" class="btn btn-flat btn-boxed-primary full-width m-v-1">Skills</a>
+          <a href="projects/" class="btn btn-flat btn-boxed-primary full-width m-v-1">Projects</a>
         </div>
       </div>
     </div>

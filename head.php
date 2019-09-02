@@ -10,7 +10,7 @@
 <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
 <meta name="author" content="Kyle Gough">
 <meta name="description" content="My personal portfolio showcasing skills and programming/web development projects undertaken at university and in my spare time.">
-<meta name="keywords" content="kyle, gough, portfolio, projects, java, javascript, programmer, programming, website, development">
+<meta name="keywords" content="kyle, gough, portfolio, projects, java, javascript, programmer, programming, website, development, javascript">
 <meta property="og:title" content="Kyle Gough - Portfolio">
 <meta property="og:image" content="images/sort1.png">
 <meta property="og:description" content="My personal portfolio showcasing skills and programming/web development projects undertaken at university and in my spare time.">
