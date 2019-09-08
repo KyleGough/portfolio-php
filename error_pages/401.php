@@ -27,7 +27,7 @@
           <h1 class="error-code m-b-0">401</h1>
           <h3 class="error-detail m-t-0">Not Authorised</h3>
           <p>The requested page requires authentication to access. Please navigate to a different page using the following links.</p>
-          <p>You can submit a bug report by emailing: <a href"mailto:contact@kylegough.co.uk">contact@kylegough.co.uk</a></p>
+          <p>You can submit a bug report by emailing: <a href="mailto:kylegough98@gmail.com">kylegough98@gmail.com</a></p>
         </div>
       </div>
       <div class="row">

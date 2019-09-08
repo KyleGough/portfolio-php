@@ -45,7 +45,7 @@
       echo "<a class='btn-pager m-v-2 btn btn-flat btn-boxed-primary disabled'>Previous Project</a></div>";
     }
     else {
-      echo "<a href='projects/" . $array[$previousIndex]["ID"] . "' class='btn-pager m-v-2 btn btn-flat btn-boxed-primary'>Previous Project</a></div>";
+      echo "<a href='projects/" . $array[$previousIndex]["ID"] . ".php' class='btn-pager m-v-2 btn btn-flat btn-boxed-primary'>Previous Project</a></div>";
     }
 
     //Next project button.
@@ -54,7 +54,7 @@
       echo "<a class='btn-pager m-v-2 btn btn-flat btn-boxed-primary disabled'>Next Project</a></div>";
     }
     else {
-      echo "<a href='projects/" . $array[$nextIndex]["ID"] . "' class='btn-pager m-v-2 btn btn-flat btn-boxed-primary'>Next Project</a></div>";
+      echo "<a href='projects/" . $array[$nextIndex]["ID"] . ".php' class='btn-pager m-v-2 btn btn-flat btn-boxed-primary'>Next Project</a></div>";
     }
 
     echo "</div>";

@@ -14,8 +14,8 @@ $primary-color: #424242!default;
 $primary-color-light: lighten($primary-color, 25%) !default;
 $primary-color-dark: darken($primary-color, 5%) !default;
 
-$col-light-red: #fff5f4;
-$col-light-blue: #edeefc;
+$col-light-red: #FFFCFB;
+$col-light-blue: #FAFAFE;
 
 $col-link: #03B0EE;
 $col-link-hover: #4CAF50;
@@ -198,16 +198,19 @@ $R: $D/2;
 
 //Global rules for fonts and background colour.
 body {
-  font-family: 'Vintage Avalanche';
+  font-family: 'Lato', sans-serif;
   background-color: $col-light-red;
 }
+
+//Headers font.
+h1, h2, h3, h4, h5 { font-family: 'Merriweather', serif; }
 
 //Padding to allow for navigation bar shadow and border.
 main { padding-top: 1em; }
 
 //Background colours.
 .col-light-red { background-color: $col-light-red; }
-.col-light-blue {background-color: $col-light-blue; }
+.col-light-blue { background-color: $col-light-blue; }
 
 .divider { margin: 3em 0; }
 
@@ -286,7 +289,7 @@ main { padding-top: 1em; }
   &[data-language="JavaScript"],
   &[data-language="jQuery"],
   &[data-language="PHP"],
-  &[data-language="NodeJS"],
+  &[data-language="Node.js"],
   &[data-language="C++"] {
     background-color: lighten($col-programming, $shift-amount);
   }
@@ -362,8 +365,7 @@ nav {
 
 .footer-link {
   @include transition(all, 0.05s, ease, 0.05s);
-  &:hover,
-  &focus {
+  &:hover, &.hover, &:focus, &.focus {
     color: darken(white, 35%)!important;
   }
 }
@@ -422,6 +424,11 @@ a.project-link {
   white-space: nowrap;
 }
 
+span.project-link {
+  color: $col-link;
+  white-space: nowrap;
+}
+
 .light-border {
   border: 1px solid #E0E0E0;
 }
@@ -458,6 +465,7 @@ a.project-link {
   @include transition(all, 0.1s, linear, 0.0s);
   line-height: 45px;
   height: 50px;
+  text-transform: none!important;
 
   &:hover, &:focus, .focus, .hover {
     background-color: $btn-primary-colour;

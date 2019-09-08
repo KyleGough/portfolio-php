@@ -24,7 +24,6 @@
     <div class="row m-v-0 center">
       <div class="col s12 m-v-4 center">
         <h3><strong>Projects</strong></h3>
-        <h5><small><strong>Note:</strong> All projects subtitled with the prefix CSxxx are university coursework/lab work, all other projects have been completed in my spare time to further develop my skills or as a way to learn a new language.</small></h5>
       </div>
     </div>
   </div>
@@ -58,7 +57,7 @@ for ($i = 0; $i < count($array); $i++) {
 
   //Subtitle.
   if ($project["subtitle"] != null) {
-    echo "<h5><strong>" . $project["subtitle"] . "</strong></h5>";
+    echo "<h5>" . $project["subtitle"] . "</h5>";
   }
 
   //Date.
@@ -81,7 +80,7 @@ for ($i = 0; $i < count($array); $i++) {
   }
 
   //View Project
-  echo "<div><a href='projects/" . $project["ID"] . "' class='";
+  echo "<div><a href='projects/" . $project["ID"] . ".php' class='";
   if ($project["disabled"]) {
     echo "disabled ";
   }

@@ -1,5 +1,5 @@
 <meta charset="UTF-8">
-<link href="https://fonts.googleapis.com/css?family=Material+Icons|Cinzel|News+Cycle" rel="stylesheet"> <!--Import Google Fonts-->
+<link href="https://fonts.googleapis.com/css?family=Material+Icons|Lato|Merriweather" rel="stylesheet"> <!--Google Fonts-->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css"> <!--Materialize CSS-->
 <link type="text/css" rel="stylesheet" href="css/style.css" media="screen,projection"> <!--Import custom CSS-->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>

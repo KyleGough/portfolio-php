@@ -44,7 +44,7 @@
         <div class="valign-wrapper" style="height:100%;width:100%;">
           <div class="valign" style="height:100%;"></div>
           <div>
-            <h3>Kyle Gough</h3>
+            <h3><strong>Kyle Gough</strong></h3>
             <h5><small>4th Year Computer Science Student at University of Warwick.</small></h5>
             <p>Welcome to my portfolio website showcasing my skills and projects completed in my spare time and at university.</p>
           </div>
@@ -61,9 +61,9 @@
         <h3 class="m-b-1"><strong>Featured Project</strong></h3>
         <?php
           //Featured Project Showcase.
-          echo "<h5><strong>" . $featuredProject["title"] . "</strong></h5>";
+          echo "<h5>" . $featuredProject["title"] . "</h5>";
           echo "<p class='m-h-1 description'>" . $featuredProject["description"] . "</p>";
-          echo "<a href='projects/" . $featuredProject["ID"] . "' class='btn btn-flat btn-boxed-primary full-width m-t-1'>View Featured Project</a>";
+          echo "<a href='projects/" . $featuredProject["ID"] . "' class='btn btn-flat btn-boxed-primary m-t-1'>View Featured Project</a>";
         ?>
       </div>
       <div class="col s12 l6 p-h-2 m-v-2 pull-l6">
@@ -84,9 +84,9 @@
       <div class="col s12 l6 m-v-2">
         <h3 class="m-b-1"><strong>Latest Project</strong></h3>
         <?php
-          echo "<h5><strong>" . $latestProject["title"] . "</strong></h5>";
+          echo "<h5>" . $latestProject["title"] . "</h5>";
           echo "<p class='m-h-1 description'>" . $latestProject["description"] . "</p>";
-          echo "<a href='projects/" . $latestProject["ID"] . "' class='btn btn-flat btn-boxed-primary full-width m-t-1'>View Latest Project</a>";
+          echo "<a href='projects/" . $latestProject["ID"] . "' class='btn btn-flat btn-boxed-primary m-t-1'>View Latest Project</a>";
         ?>
       </div>
       <div class="col s12 l6 m-v-2 p-h-2">
