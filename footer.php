@@ -9,12 +9,11 @@
       <div class="col l4 m6 s6 center m-v-2">
         <h5 class="white-text">Projects</h5>
         <ul>
+          <li><a class="grey-text text-lighten-3 footer-link" href="projects/cave-exploration.php">Cave Exploration</a></li>
           <li><a class="grey-text text-lighten-3 footer-link" href="projects/">All Projects</a></li>
           <li><a class="grey-text text-lighten-3 footer-link" href="projects/graph-algorithm-visualiser.php">Graph Visualiser</a></li>
           <li><a class="grey-text text-lighten-3 footer-link" href="projects/sorting-visualiser.php">Sorting Visualiser</a></li>
-          <li><a class="grey-text text-lighten-3 footer-link" href="projects/bsplit.php">BSplit</a></li>
-          <li><a class="grey-text text-lighten-3 footer-link" href="projects/route-planner.php">Route Planner</a></li>
-          <li><a class="grey-text text-lighten-3 footer-link" href="projects/steganography.php">Steganography</a></li>
+          <li><a class="grey-text text-lighten-3 footer-link" href="projects/roller-coaster.php">OpenGL Roller Coaster</a></li>
         </ul>
       </div>
       <div class="col l4 m6 s6 center m-v-2">

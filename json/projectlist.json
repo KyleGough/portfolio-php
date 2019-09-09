@@ -1,5 +1,20 @@
 [
   {
+    "ID": "cave-exploration",
+    "shortName": "Cave Exploration",
+    "title": "Using Swarm AI to Map a Cave Network",
+    "subtitle": "CS310: Dissertation",
+    "date": "December 2018 - April 2019",
+    "languages": ["C++", "OpenGL"],
+    "description": "Cave exploration is dangerous and time-consuming. This project demonstrates how swarm AI could be used in a group of autonomous flying drones to navigate and explore a cave as efficiently as possible. The project also includes realistic cave environment generation.",
+    "image": "images/diss6.png",
+    "alt": "Using Swarm AI to Map a Cave Network",
+    "disabled": false,
+    "github": null,
+    "live": null,
+    "categories": {"uni": 1, "per": 0, "web": 0}
+  },
+  {
     "ID": "roller-coaster",
     "shortName": "Roller Coaster",
     "title": "OpenGL Roller Coaster",
@@ -9,7 +24,7 @@
     "description": "A simulation of a 3-car roller coaster which traverses a small track featuring a lift hill, drop, loop-the-loop and turns. The coaster can be viewed from a first-person perspective in each of the carts, as well as additional views that follow the carts round the track.",
     "image": "images/coaster1.png",
     "alt": "OpenGL Roller coaster",
-    "disabled": true,
+    "disabled": false,
     "github": null,
     "live": null,
     "categories": {"uni": 1, "per": 0, "web": 0}

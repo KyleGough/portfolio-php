@@ -35,7 +35,7 @@
           <h3><strong>URL Shortener</strong></h3>
         </div>
         <div class="row center">
-          <div class="chip language-chip" data-language="NodeJS">Node.js</div>
+          <div class="chip language-chip" data-language="Node.js">Node.js</div>
           <div class="chip language-chip" data-language="MongoDB">MongoDB</div>
           <div class="chip language-chip" data-language="HTML">HTML</div>
           <div class="chip language-chip" data-language="CSS">CSS</div>

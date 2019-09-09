@@ -1,7 +1,7 @@
 <?php
   error_reporting(E_ALL);
   ini_set("display_errors", 1);
-  $featuredProjectID = "graph-algorithm-visualiser";
+  $featuredProjectID = "roller-coaster";
 ?>
 
 <!DOCTYPE html>
@@ -31,24 +31,11 @@
 <main>
 <div class="col-light-red">
   <div class="container">
-    <div class="row flex p-v-2 m-b-0">
-      <div class="col s12 m3 l3 m-v-2">
-        <!--<img class="responsive-img circle" src="images/code.png">-->
-        <div class="g">
-          <div class="circle-1 rotate1"></div>
-          <div class="circle-1 rotate2"></div>
-          <div class="circle-1 rotate3"></div>
-        </div>
-      </div>
-      <div class="col s12 m9 l9 m-v-2">
-        <div class="valign-wrapper" style="height:100%;width:100%;">
-          <div class="valign" style="height:100%;"></div>
-          <div>
-            <h3><strong>Kyle Gough</strong></h3>
-            <h5><small>4th Year Computer Science Student at University of Warwick.</small></h5>
-            <p>Welcome to my portfolio website showcasing my skills and projects completed in my spare time and at university.</p>
-          </div>
-        </div>
+    <div class="row center p-b-1 m-b-0">
+      <div class="col s12 m12 l12 m-v-3">
+        <h3><strong>Kyle Gough</strong></h3>
+        <h5><small>4th Year Computer Science Student at University of Warwick.</small></h5>
+        <p>Welcome to my portfolio website showcasing my skills and programming projects.</p>
       </div>
     </div>
   </div>
@@ -63,7 +50,7 @@
           //Featured Project Showcase.
           echo "<h5>" . $featuredProject["title"] . "</h5>";
           echo "<p class='m-h-1 description'>" . $featuredProject["description"] . "</p>";
-          echo "<a href='projects/" . $featuredProject["ID"] . "' class='btn btn-flat btn-boxed-primary m-t-1'>View Featured Project</a>";
+          echo "<a href='projects/" . $featuredProject["ID"] . ".php' class='btn btn-flat btn-boxed-primary m-t-1'>View Featured Project</a>";
         ?>
       </div>
       <div class="col s12 l6 p-h-2 m-v-2 pull-l6">
@@ -86,7 +73,7 @@
         <?php
           echo "<h5>" . $latestProject["title"] . "</h5>";
           echo "<p class='m-h-1 description'>" . $latestProject["description"] . "</p>";
-          echo "<a href='projects/" . $latestProject["ID"] . "' class='btn btn-flat btn-boxed-primary m-t-1'>View Latest Project</a>";
+          echo "<a href='projects/" . $latestProject["ID"] . ".php' class='btn btn-flat btn-boxed-primary m-t-1'>View Latest Project</a>";
         ?>
       </div>
       <div class="col s12 l6 m-v-2 p-h-2">
