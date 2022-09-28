@@ -1,16 +1,5 @@
-# Portfolio
-THIS IS AN OLD VERSION SEE https://github.com/KyleGough/portfolio FOR THE LATEST VERSION.
+<h1>Portfolio</h1>
 
-
-My personal portfolio website showcasing my programming projects and skills.
-View it live at [https://www.kylegough.co.uk/](https://www.kylegough.co.uk/)
-
-### Uses:
-* HTML
-* CSS
-  * Sass
-* JavaScript
-  * jQuery
-  * Materialize
-  * Bootstrap (Old version)
-* PHP 
+This is an old archived version of my portfolio website.
+- For the latest version visit: [https://github.com/KyleGough/portfolio](https://github.com/KyleGough/portfolio)
+- View the live site at [https://www.kylegough.co.uk/](https://www.kylegough.co.uk/)
